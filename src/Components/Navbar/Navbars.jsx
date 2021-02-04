@@ -20,10 +20,6 @@ export const Navbars = () => {
           <Nav.Link href="#pricing">R & D CELL</Nav.Link>
           <Nav.Link href="#pricing">CONTACT US</Nav.Link>
         </Nav>
-        <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-info">Search</Button>
-        </Form>
       </Navbar>
     </div>
   );
