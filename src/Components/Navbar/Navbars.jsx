@@ -7,9 +7,18 @@ export const Navbars = () => {
       <Navbar bg="dark" variant="dark">
         <Navbar.Brand href="#home">Navbar</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Nav.Link href="#home">HOME</Nav.Link>
+          <Nav.Link href="#features">ABOUT US </Nav.Link>
+          <Nav.Link href="#pricing">COURSES</Nav.Link>
+          <Nav.Link href="#pricing">DEPARTMENT</Nav.Link>
+          <Nav.Link href="#pricing">ADMISSIONS</Nav.Link>
+          <Nav.Link href="#pricing">PLACEMENTS</Nav.Link>
+          <Nav.Link href="#pricing">FEATURES</Nav.Link>
+          <Nav.Link href="#pricing">EVENTS</Nav.Link>
+          <Nav.Link href="#pricing">GALLERY</Nav.Link>
+          <Nav.Link href="#pricing">EXAMINATION CELL</Nav.Link>
+          <Nav.Link href="#pricing">R & D CELL</Nav.Link>
+          <Nav.Link href="#pricing">CONTACT US</Nav.Link>
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
