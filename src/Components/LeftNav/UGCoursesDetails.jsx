@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Row, Col, Button, Nav } from "react-bootstrap";
+import "../LeftNav/LeftNav.css";
 export const UGCoursesDetails = () => {
   return (
     <div>
@@ -7,12 +8,13 @@ export const UGCoursesDetails = () => {
         <Col lg="3">
           <Card>
             <Button
-              style={{
-                marginTop: "10px",
-                marginLeft: "10px",
-                marginRight: "10px",
-                fontSize: "20px",
-              }}
+              className="buttons"
+              // style={{
+              //   marginTop: "10px",
+              //   marginLeft: "10px",
+              //   marginRight: "10px",
+              //   fontSize: "20px",
+              // }}
             >
               UG Courses
             </Button>
