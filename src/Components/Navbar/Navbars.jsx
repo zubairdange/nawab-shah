@@ -1,5 +1,13 @@
 import React from "react";
-import { Navbar, Nav, FormControl, Button, Form } from "react-bootstrap";
+import {
+  Navbar,
+  Nav,
+  FormControl,
+  Button,
+  Form,
+  Row,
+  Col,
+} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 export const Navbars = () => {
   return (
