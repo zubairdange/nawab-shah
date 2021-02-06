@@ -8,7 +8,6 @@ export const UGCoursesDetails = () => {
         <Col lg="3">
           <Card>
             <Button
-              className="buttons"
               style={{
                 marginTop: "10px",
                 marginLeft: "10px",
