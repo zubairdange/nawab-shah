@@ -244,6 +244,108 @@ export const UGCoursesDetails = () => {
             <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
               Course OutCome
             </Nav.Link>
+            <Button
+              style={{
+                marginTop: "10px",
+                marginLeft: "10px",
+                marginRight: "10px",
+                fontSize: "20px",
+              }}
+            >
+              PG Courses
+            </Button>
+            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
+              ME (CSE)
+            </Nav.Link>
+
+            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
+              ME (CIVIL STRUCTURE)
+            </Nav.Link>
+
+            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
+              ME (MECH-HVAC)
+            </Nav.Link>
+
+            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
+              ME (ECE-ES)
+            </Nav.Link>
+            <Button
+              style={{
+                marginTop: "10px",
+                marginLeft: "10px",
+                marginRight: "10px",
+                fontSize: "20px",
+              }}
+            >
+              DIPLOMA COURSES
+            </Button>
+            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
+              POLYTECHNIC (CIVIL)
+            </Nav.Link>
+
+            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
+              POLYTECHNIC (ME)
+            </Nav.Link>
+
+            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
+              POLYTECHNIC (ECE)
+            </Nav.Link>
+
+            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
+              POLYTECHNIC (EEE)
+            </Nav.Link>
+            <Button
+              style={{
+                marginTop: "10px",
+                marginLeft: "10px",
+                marginRight: "10px",
+                fontSize: "20px",
+              }}
+            >
+              HUMAN VALUES & PROFESSIONAL ETHICS
+            </Button>
+            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
+              Human Values & Professional Ethics
+            </Nav.Link>
+            <Button
+              style={{
+                marginTop: "10px",
+                marginLeft: "10px",
+                marginRight: "10px",
+                fontSize: "20px",
+              }}
+            >
+              CISCO NETWORKING ACADEMY
+            </Button>
+            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
+              Cisco Networking Academy
+            </Nav.Link>
+            <Button
+              style={{
+                marginTop: "10px",
+                marginLeft: "10px",
+                marginRight: "10px",
+                fontSize: "20px",
+              }}
+            >
+              CAMBRIDGE ENGLISH
+            </Button>
+            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
+              Cambridge English
+            </Nav.Link>
+            <Button
+              style={{
+                marginTop: "10px",
+                marginLeft: "10px",
+                marginRight: "10px",
+                fontSize: "18px",
+              }}
+            >
+              TASK
+            </Button>
+            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
+              TS Academy For Skill & Knowledge
+            </Nav.Link>
           </Card>
         </Col>
         <Col lg="9">{/* <h2>hiiiiii</h2> */}</Col>
