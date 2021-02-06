@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Row, Col, Button, Nav } from "react-bootstrap";
-import "../LeftNav/LeftNav.css";
+
 export const UGCoursesDetails = () => {
   return (
     <div>
