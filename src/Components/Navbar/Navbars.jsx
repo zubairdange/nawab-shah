@@ -15,10 +15,10 @@ export const Navbars = () => {
           <Nav.Link href="#placement">PLACEMENTS</Nav.Link>
           <Nav.Link href="#features">FEATURES</Nav.Link>
           <Nav.Link href="#events">EVENTS</Nav.Link>
-          <Nav.Link href="#pricing">GALLERY</Nav.Link>
-          <Nav.Link href="#pricing">EXAMINATION CELL</Nav.Link>
-          <Nav.Link href="#pricing">R & D CELL</Nav.Link>
-          <Nav.Link href="#pricing">CONTACT US</Nav.Link>
+          <Nav.Link href="#gallery">GALLERY</Nav.Link>
+          <Nav.Link href="#examinationcell">EXAMINATION CELL</Nav.Link>
+          <Nav.Link href="#r&dcell">R & D CELL</Nav.Link>
+          <Nav.Link href="#contactus">CONTACT US</Nav.Link>
         </Nav>
       </Navbar>
     </div>
