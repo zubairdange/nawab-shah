@@ -9,12 +9,12 @@ export const UGCoursesDetails = () => {
           <Card>
             <Button
               className="buttons"
-              // style={{
-              //   marginTop: "10px",
-              //   marginLeft: "10px",
-              //   marginRight: "10px",
-              //   fontSize: "20px",
-              // }}
+              style={{
+                marginTop: "10px",
+                marginLeft: "10px",
+                marginRight: "10px",
+                fontSize: "20px",
+              }}
             >
               UG Courses
             </Button>
