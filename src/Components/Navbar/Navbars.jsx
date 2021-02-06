@@ -10,7 +10,7 @@ export const Navbars = () => {
           <Nav.Link href="#home">HOME</Nav.Link>
           <Nav.Link href="#features">ABOUT US </Nav.Link>
           <Nav.Link href="#courses">COURSES</Nav.Link>
-          <Nav.Link href="#pricing">DEPARTMENT</Nav.Link>
+          <Nav.Link href="#department">DEPARTMENT</Nav.Link>
           <Nav.Link href="#pricing">ADMISSIONS</Nav.Link>
           <Nav.Link href="#pricing">PLACEMENTS</Nav.Link>
           <Nav.Link href="#pricing">FEATURES</Nav.Link>
