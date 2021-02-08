@@ -1,8 +1,9 @@
 import React from "react";
+import "../BE(CSE)/BECSE.css";
 export const VisionMision = () => {
   return (
     <div>
-      <h1>hi this is mision and vision page</h1>
+      <h3 className="headerclass">BTECH-CSE-Vision & Mission</h3>
     </div>
   );
 };

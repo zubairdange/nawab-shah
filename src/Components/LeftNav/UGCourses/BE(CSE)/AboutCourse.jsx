@@ -8,7 +8,7 @@ export const AboutCourse = () => {
       <h3 className="headerclass">Computer Science & Engineering (BTECH)</h3>
 
       <img src={imgLogo} className="cseimage"></img>
-      <p style={{ textAlign: "left", marginTop: "10px", fontSize: "14px" }}>
+      <p className="ptag">
         Computer Science field has become one of the fastest growing segments of
         our economy which leads to huge demand for computer Engineering
         professionals for the development of faster Hardware components, New
@@ -17,7 +17,7 @@ export const AboutCourse = () => {
         maintenance. The program is designed to provide the students with the
         foundation of discipline as well as opportunity for specialization.
       </p>
-      <p style={{ textAlign: "left", marginTop: "10px", fontSize: "14px" }}>
+      <p className="ptag">
         A separate department for Computer Science and Engineering was formed
         during year 2008 and is striving for the quality of Technical education
         in the field of Computer Science and Engineering since then. The
@@ -25,7 +25,7 @@ export const AboutCourse = () => {
         facilities. The department has young &amp; dynamic and well-qualified
         &amp; experienced faculties.{" "}
       </p>
-      <p style={{ textAlign: "left", marginTop: "10px", fontSize: "14px" }}>
+      <p className="ptag">
         The department organizes various co-curricular and extra-curricular
         activities to develop important social and professional facilities in
         the student. Most common co-curricular activity is the programming
