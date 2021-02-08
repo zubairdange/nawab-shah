@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "../LeftNav/LeftNav.css";
 import { AboutCourse } from "./UGCourses/BE(CSE)/AboutCourse";
 import { VisionMision } from "./UGCourses/BE(CSE)/VisionMision";
+import { SourceOutcome } from "./UGCourses/BE(CSE)/SourceOutcome";
+import { PEO } from "./UGCourses/BE(CSE)/PEO";
 export const UGCoursesDetails = () => {
   return (
     <div style={{ marginTop: "20px" }}>
@@ -21,9 +23,13 @@ export const UGCoursesDetails = () => {
                 Vision & Mission
               </Nav.Link>
 
-              <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/B-CSE-POSPSOS">
+                PEO's & PSO's
+              </Nav.Link>
 
-              <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/B-CSE-CourseOutcomes">
+                Course OutCome
+              </Nav.Link>
             </Nav>
             <Button>BE (IT)</Button>
             <Nav className="navmainclass">
@@ -158,6 +164,12 @@ export const UGCoursesDetails = () => {
               </Route>
               <Route path="/B-CSE-VisionMission">
                 <VisionMision />
+              </Route>
+              <Route path="/B-CSE-POSPSOS">
+                <PEO />
+              </Route>
+              <Route path="/B-CSE-CourseOutcomes">
+                <SourceOutcome />
               </Route>
             </Switch>
           </Router>
