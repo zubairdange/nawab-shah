@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import {
   Navbar,
   Nav,
@@ -9,15 +10,16 @@ import {
   Col,
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { AboutCourse } from "../LeftNav/UGCourses/BE(CSE)/AboutCourse";
 export const Navbars = () => {
   return (
     <div>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        {/* <Navbar.Brand href="#home">Navbar</Navbar.Brand> */}
         <Nav className="mr-auto">
           <Nav.Link href="#home">HOME</Nav.Link>
           <Nav.Link href="#features">ABOUT US </Nav.Link>
-          <Nav.Link href="#courses">COURSES</Nav.Link>
+          <Nav.Link href="/CSEBTECH">COURSES</Nav.Link>
           <Nav.Link href="#department">DEPARTMENT</Nav.Link>
           <Nav.Link href="#pricing">ADMISSIONS</Nav.Link>
           <Nav.Link href="#pricing">PLACEMENTS</Nav.Link>
@@ -29,6 +31,11 @@ export const Navbars = () => {
           <Nav.Link href="#pricing">CONTACT US</Nav.Link>
         </Nav>
       </Navbar>
+      <Router>
+        <Switch>
+          <Route path="/CSEBTECH">{/* <AboutCourse /> */}</Route>
+        </Switch>
+      </Router>
     </div>
   );
 };

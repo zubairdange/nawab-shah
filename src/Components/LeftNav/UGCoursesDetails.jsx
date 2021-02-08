@@ -2,11 +2,11 @@ import React from "react";
 import { Card, Row, Col, Button, Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "../LeftNav/LeftNav.css";
-import { AboutCourse } from "./AboutCourse";
-import { VisionMision } from "./VisionMision";
+import { AboutCourse } from "./UGCourses/BE(CSE)/AboutCourse";
+import { VisionMision } from "./UGCourses/BE(CSE)/VisionMision";
 export const UGCoursesDetails = () => {
   return (
-    <div>
+    <div style={{ marginTop: "20px" }}>
       <Row>
         <Col lg="3">
           <Card>
@@ -150,7 +150,7 @@ export const UGCoursesDetails = () => {
           </Card>
         </Col>
         <Col lg="9">
-          <h2>hiiiiii</h2>
+          {/* <h2>hiiiiii</h2> */}
           <Router>
             <Switch>
               <Route path="/CSEBTECH">
