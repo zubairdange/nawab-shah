@@ -1,6 +1,9 @@
 import React from "react";
 import { Card, Row, Col, Button, Nav } from "react-bootstrap";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "../LeftNav/LeftNav.css";
+import { AboutCourse } from "./AboutCourse";
+import { VisionMision } from "./VisionMision";
 export const UGCoursesDetails = () => {
   return (
     <div>
@@ -10,9 +13,13 @@ export const UGCoursesDetails = () => {
             <Button>UG Courses</Button>
             <Button className="mybutton">BE (CSE)</Button>
             <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass">About Course</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/CSEBTECH">
+                About Course
+              </Nav.Link>
 
-              <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/B-CSE-VisionMission">
+                Vision & Mission
+              </Nav.Link>
 
               <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
 
@@ -142,7 +149,19 @@ export const UGCoursesDetails = () => {
             </Nav>
           </Card>
         </Col>
-        <Col lg="9">{/* <h2>hiiiiii</h2> */}</Col>
+        <Col lg="9">
+          <h2>hiiiiii</h2>
+          <Router>
+            <Switch>
+              <Route path="/CSEBTECH">
+                <AboutCourse />
+              </Route>
+              <Route path="/B-CSE-VisionMission">
+                <VisionMision />
+              </Route>
+            </Switch>
+          </Router>
+        </Col>
       </Row>
     </div>
   );
