@@ -4,3 +4,8 @@ Button{
     margin-right: 10px;
     font-size: 20px;
     }
+
+    .navclass{
+        text-align: left;
+        font-size: 20px;
+    }

@@ -9,6 +9,52 @@ export const UGCoursesDetails = () => {
           <Card>
             <Button>UG Courses</Button>
             <Button className="mybutton">BE (CSE)</Button>
+            <Nav.Link className="navclass">About Course</Nav.Link>
+
+            <Nav.Link className="navclass">Vision & Mision</Nav.Link>
+
+            <Nav.Link className="navclass">PEO's & PSO's</Nav.Link>
+
+            <Nav.Link className="navclass">Course OutCome</Nav.Link>
+            <Button>BE (IT)</Button>
+            <Nav.Link className="navclass">About Course</Nav.Link>
+
+            <Nav.Link className="navclass">Vision & Mision</Nav.Link>
+
+            <Nav.Link className="navclass">PEO's & PSO's</Nav.Link>
+
+            <Nav.Link className="navclass">Course OutCome</Nav.Link>
+
+            <Button>BE (DS)</Button>
+            <Nav.Link className="navclass">About Course</Nav.Link>
+
+            <Nav.Link className="navclass">Vision & Mision</Nav.Link>
+
+            <Nav.Link className="navclass">PEO's & PSO's</Nav.Link>
+
+            <Nav.Link className="navclass">Course OutCome</Nav.Link>
+
+            <Button>BE (AI & ML)</Button>
+            <Nav.Link className="navclass">About Course</Nav.Link>
+
+            <Nav.Link className="navclass">Vision & Mision</Nav.Link>
+
+            <Nav.Link className="navclass">PEO's & PSO's</Nav.Link>
+
+            <Nav.Link className="navclass">Course OutCome</Nav.Link>
+            <Button>BE (IOT,CYBER SECURITY,BLOCK CHAIN)</Button>
+            <Nav.Link className="navclass">About Course</Nav.Link>
+
+            <Nav.Link className="navclass">Vision & Mision</Nav.Link>
+
+            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
+              PEO's & PSO's
+            </Nav.Link>
+
+            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
+              Course OutCome
+            </Nav.Link>
+            <Button>BE (CIVIL)</Button>
             <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
               About Course
             </Nav.Link>
@@ -24,143 +70,7 @@ export const UGCoursesDetails = () => {
             <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
               Course OutCome
             </Nav.Link>
-            <Button
-            // style={{
-            //   marginTop: "10px",
-            //   marginLeft: "10px",
-            //   marginRight: "10px",
-            //   fontSize: "20px",
-            // }}
-            >
-              BE (IT)
-            </Button>
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              About Course
-            </Nav.Link>
-
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Vision & Mision
-            </Nav.Link>
-
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              PEO's & PSO's
-            </Nav.Link>
-
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Course OutCome
-            </Nav.Link>
-
-            <Button
-            // style={{
-            //   marginTop: "10px",
-            //   marginLeft: "10px",
-            //   marginRight: "10px",
-            //   fontSize: "20px",
-            // }}
-            >
-              BE (DS)
-            </Button>
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              About Course
-            </Nav.Link>
-
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Vision & Mision
-            </Nav.Link>
-
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              PEO's & PSO's
-            </Nav.Link>
-
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Course OutCome
-            </Nav.Link>
-
-            <Button
-            // style={{
-            //   marginTop: "10px",
-            //   marginLeft: "10px",
-            //   marginRight: "10px",
-            //   fontSize: "20px",
-            // }}
-            >
-              BE (AI & ML)
-            </Button>
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              About Course
-            </Nav.Link>
-
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Vision & Mision
-            </Nav.Link>
-
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              PEO's & PSO's
-            </Nav.Link>
-
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Course OutCome
-            </Nav.Link>
-            <Button
-            // style={{
-            //   marginTop: "10px",
-            //   marginLeft: "10px",
-            //   marginRight: "10px",
-            //   fontSize: "20px",
-            // }}
-            >
-              BE (IOT,CYBER SECURITY,BLOCK CHAIN)
-            </Button>
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              About Course
-            </Nav.Link>
-
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Vision & Mision
-            </Nav.Link>
-
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              PEO's & PSO's
-            </Nav.Link>
-
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Course OutCome
-            </Nav.Link>
-            <Button
-            // style={{
-            //   marginTop: "10px",
-            //   marginLeft: "10px",
-            //   marginRight: "10px",
-            //   fontSize: "20px",
-            // }}
-            >
-              BE (CIVIL)
-            </Button>
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              About Course
-            </Nav.Link>
-
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Vision & Mision
-            </Nav.Link>
-
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              PEO's & PSO's
-            </Nav.Link>
-
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Course OutCome
-            </Nav.Link>
-            <Button
-            // style={{
-            //   marginTop: "10px",
-            //   marginLeft: "10px",
-            //   marginRight: "10px",
-            //   fontSize: "20px",
-            // }}
-            >
-              BE (MECH)
-            </Button>
+            <Button>BE (MECH)</Button>
             <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
               About Course
             </Nav.Link>
@@ -177,16 +87,7 @@ export const UGCoursesDetails = () => {
               Course OutCome
             </Nav.Link>
 
-            <Button
-            // style={{
-            //   marginTop: "10px",
-            //   marginLeft: "10px",
-            //   marginRight: "10px",
-            //   fontSize: "20px",
-            // }}
-            >
-              BE (ECE)
-            </Button>
+            <Button>BE (ECE)</Button>
             <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
               About Course
             </Nav.Link>
@@ -202,16 +103,7 @@ export const UGCoursesDetails = () => {
             <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
               Course OutCome
             </Nav.Link>
-            <Button
-            // style={{
-            //   marginTop: "10px",
-            //   marginLeft: "10px",
-            //   marginRight: "10px",
-            //   fontSize: "20px",
-            // }}
-            >
-              BE (EEE)
-            </Button>
+            <Button>BE (EEE)</Button>
             <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
               About Course
             </Nav.Link>
@@ -227,16 +119,7 @@ export const UGCoursesDetails = () => {
             <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
               Course OutCome
             </Nav.Link>
-            <Button
-            // style={{
-            //   marginTop: "10px",
-            //   marginLeft: "10px",
-            //   marginRight: "10px",
-            //   fontSize: "20px",
-            // }}
-            >
-              PG Courses
-            </Button>
+            <Button>PG Courses</Button>
             <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
               ME (CSE)
             </Nav.Link>
@@ -252,16 +135,7 @@ export const UGCoursesDetails = () => {
             <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
               ME (ECE-ES)
             </Nav.Link>
-            <Button
-            // style={{
-            //   marginTop: "10px",
-            //   marginLeft: "10px",
-            //   marginRight: "10px",
-            //   fontSize: "20px",
-            // }}
-            >
-              DIPLOMA COURSES
-            </Button>
+            <Button>DIPLOMA COURSES</Button>
             <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
               POLYTECHNIC (CIVIL)
             </Nav.Link>
@@ -277,55 +151,19 @@ export const UGCoursesDetails = () => {
             <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
               POLYTECHNIC (EEE)
             </Nav.Link>
-            <Button
-            // style={{
-            //   marginTop: "10px",
-            //   marginLeft: "10px",
-            //   marginRight: "10px",
-            //   fontSize: "20px",
-            // }}
-            >
-              HUMAN VALUES & PROFESSIONAL ETHICS
-            </Button>
+            <Button>HUMAN VALUES & PROFESSIONAL ETHICS</Button>
             <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
               Human Values & Professional Ethics
             </Nav.Link>
-            <Button
-            // style={{
-            //   marginTop: "10px",
-            //   marginLeft: "10px",
-            //   marginRight: "10px",
-            //   fontSize: "20px",
-            // }}
-            >
-              CISCO NETWORKING ACADEMY
-            </Button>
+            <Button>CISCO NETWORKING ACADEMY</Button>
             <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
               Cisco Networking Academy
             </Nav.Link>
-            <Button
-            // style={{
-            //   marginTop: "10px",
-            //   marginLeft: "10px",
-            //   marginRight: "10px",
-            //   fontSize: "20px",
-            // }}
-            >
-              CAMBRIDGE ENGLISH
-            </Button>
+            <Button>CAMBRIDGE ENGLISH</Button>
             <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
               Cambridge English
             </Nav.Link>
-            <Button
-            // style={{
-            //   marginTop: "10px",
-            //   marginLeft: "10px",
-            //   marginRight: "10px",
-            //   fontSize: "18px",
-            // }}
-            >
-              TASK
-            </Button>
+            <Button>TASK</Button>
             <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
               TS Academy For Skill & Knowledge
             </Nav.Link>
