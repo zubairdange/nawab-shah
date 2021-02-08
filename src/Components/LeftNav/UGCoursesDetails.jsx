@@ -9,108 +9,137 @@ export const UGCoursesDetails = () => {
           <Card>
             <Button>UG Courses</Button>
             <Button className="mybutton">BE (CSE)</Button>
-            <Nav.Link className="navclass">About Course</Nav.Link>
+            <Nav className="navmainclass">
+              <Nav.Link className="navlinkclass">About Course</Nav.Link>
 
-            <Nav.Link className="navclass">Vision & Mision</Nav.Link>
+              <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
 
-            <Nav.Link className="navclass">PEO's & PSO's</Nav.Link>
+              <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
 
-            <Nav.Link className="navclass">Course OutCome</Nav.Link>
+              <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
+            </Nav>
             <Button>BE (IT)</Button>
-            <Nav.Link className="navclass">About Course</Nav.Link>
+            <Nav className="navmainclass">
+              <Nav.Link className="navlinkclass">About Course</Nav.Link>
 
-            <Nav.Link className="navclass">Vision & Mision</Nav.Link>
+              <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
 
-            <Nav.Link className="navclass">PEO's & PSO's</Nav.Link>
+              <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
 
-            <Nav.Link className="navclass">Course OutCome</Nav.Link>
-
+              <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
+            </Nav>
             <Button>BE (DS)</Button>
-            <Nav.Link className="navclass">About Course</Nav.Link>
+            <Nav className="navmainclass">
+              <Nav.Link className="navlinkclass">About Course</Nav.Link>
 
-            <Nav.Link className="navclass">Vision & Mision</Nav.Link>
+              <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
 
-            <Nav.Link className="navclass">PEO's & PSO's</Nav.Link>
+              <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
 
-            <Nav.Link className="navclass">Course OutCome</Nav.Link>
-
+              <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
+            </Nav>
             <Button>BE (AI & ML)</Button>
-            <Nav.Link className="navclass">About Course</Nav.Link>
+            <Nav className="navmainclass">
+              <Nav.Link className="navlinkclass">About Course</Nav.Link>
 
-            <Nav.Link className="navclass">Vision & Mision</Nav.Link>
+              <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
 
-            <Nav.Link className="navclass">PEO's & PSO's</Nav.Link>
+              <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
 
-            <Nav.Link className="navclass">Course OutCome</Nav.Link>
+              <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
+            </Nav>
             <Button>BE (IOT,CYBER SECURITY,BLOCK CHAIN)</Button>
-            <Nav.Link className="navclass">About Course</Nav.Link>
+            <Nav className="navmainclass">
+              <Nav.Link className="navlinkclass">About Course</Nav.Link>
 
-            <Nav.Link className="navclass">Vision & Mision</Nav.Link>
+              <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
 
-            <Nav.Link className="navclass">PEO's & PSO's</Nav.Link>
+              <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
 
-            <Nav.Link className="navclass">Course OutCome</Nav.Link>
+              <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
+            </Nav>
             <Button>BE (CIVIL)</Button>
-            <Nav.Link className="navclass">About Course</Nav.Link>
+            <Nav className="navmainclass">
+              <Nav.Link className="navlinkclass">About Course</Nav.Link>
 
-            <Nav.Link className="navclass">Vision & Mision</Nav.Link>
+              <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
 
-            <Nav.Link className="navclass">PEO's & PSO's</Nav.Link>
+              <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
 
-            <Nav.Link className="navclass">Course OutCome</Nav.Link>
+              <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
+            </Nav>
             <Button>BE (MECH)</Button>
-            <Nav.Link className="navclass">About Course</Nav.Link>
+            <Nav className="navmainclass">
+              <Nav.Link className="navlinkclass">About Course</Nav.Link>
 
-            <Nav.Link className="navclass">Vision & Mision</Nav.Link>
+              <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
 
-            <Nav.Link className="navclass">PEO's & PSO's</Nav.Link>
+              <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
 
-            <Nav.Link className="navclass">Course OutCome</Nav.Link>
-
+              <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
+            </Nav>
             <Button>BE (ECE)</Button>
-            <Nav.Link className="navclass">About Course</Nav.Link>
+            <Nav className="navmainclass">
+              <Nav.Link className="navlinkclass">About Course</Nav.Link>
 
-            <Nav.Link className="navclass">Vision & Mision</Nav.Link>
+              <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
 
-            <Nav.Link className="navclass">PEO's & PSO's</Nav.Link>
+              <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
 
-            <Nav.Link className="navclass">Course OutCome</Nav.Link>
+              <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
+            </Nav>
             <Button>BE (EEE)</Button>
-            <Nav.Link className="navclass">About Course</Nav.Link>
+            <Nav className="navmainclass">
+              <Nav.Link className="navlinkclass">About Course</Nav.Link>
 
-            <Nav.Link className="navclass">Vision & Mision</Nav.Link>
+              <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
 
-            <Nav.Link className="navclass">PEO's & PSO's</Nav.Link>
+              <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
 
-            <Nav.Link className="navclass">Course OutCome</Nav.Link>
+              <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
+            </Nav>
             <Button>PG Courses</Button>
-            <Nav.Link className="navclass">ME (CSE)</Nav.Link>
+            <Nav className="navmainclass">
+              <Nav.Link className="navlinkclass">ME (CSE)</Nav.Link>
 
-            <Nav.Link className="navclass">ME (CIVIL STRUCTURE)</Nav.Link>
+              <Nav.Link className="navlinkclass">ME (CIVIL STRUCTURE)</Nav.Link>
 
-            <Nav.Link className="navclass">ME (MECH-HVAC)</Nav.Link>
+              <Nav.Link className="navlinkclass">ME (MECH-HVAC)</Nav.Link>
 
-            <Nav.Link className="navclass">ME (ECE-ES)</Nav.Link>
+              <Nav.Link className="navlinkclass">ME (ECE-ES)</Nav.Link>
+            </Nav>
             <Button>DIPLOMA COURSES</Button>
-            <Nav.Link className="navclass">POLYTECHNIC (CIVIL)</Nav.Link>
+            <Nav className="navmainclass">
+              <Nav.Link className="navlinkclass">POLYTECHNIC (CIVIL)</Nav.Link>
 
-            <Nav.Link className="navclass">POLYTECHNIC (ME)</Nav.Link>
+              <Nav.Link className="navlinkclass">POLYTECHNIC (ME)</Nav.Link>
 
-            <Nav.Link className="navclass">POLYTECHNIC (ECE)</Nav.Link>
+              <Nav.Link className="navlinkclass">POLYTECHNIC (ECE)</Nav.Link>
 
-            <Nav.Link className="navclass">POLYTECHNIC (EEE)</Nav.Link>
+              <Nav.Link className="navlinkclass">POLYTECHNIC (EEE)</Nav.Link>
+            </Nav>
             <Button>HUMAN VALUES & PROFESSIONAL ETHICS</Button>
-            <Nav.Link className="navclass">
-              Human Values & Professional Ethics
-            </Nav.Link>
+            <Nav className="navmainclass">
+              <Nav.Link className="navlinkclass">
+                Human Values & Professional Ethics
+              </Nav.Link>
+            </Nav>
             <Button>CISCO NETWORKING ACADEMY</Button>
-            <Nav.Link className="navclass">Cisco Networking Academy</Nav.Link>
+            <Nav className="navmainclass">
+              <Nav.Link className="navlinkclass">
+                Cisco Networking Academy
+              </Nav.Link>
+            </Nav>
             <Button>CAMBRIDGE ENGLISH</Button>
-            <Nav.Link className="navclass">Cambridge English</Nav.Link>
+            <Nav className="navmainclass">
+              <Nav.Link className="navlinkclass">Cambridge English</Nav.Link>
+            </Nav>
             <Button>TASK</Button>
-            <Nav.Link className="navclass">
-              TS Academy For Skill & Knowledge
-            </Nav.Link>
+            <Nav className="navmainclass">
+              <Nav.Link className="navlinkclass">
+                TS Academy For Skill & Knowledge
+              </Nav.Link>
+            </Nav>
           </Card>
         </Col>
         <Col lg="9">{/* <h2>hiiiiii</h2> */}</Col>
