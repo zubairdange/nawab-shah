@@ -15,4 +15,18 @@
     margin-top: 10px;
     font-size: 14px;
     text-align: justify;
+    
+}
+h4{
+    background-color: #EE7C7C;
+    color: white;
+    
+    text-align: left;
+    
+}
+ul{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: justify;
 }

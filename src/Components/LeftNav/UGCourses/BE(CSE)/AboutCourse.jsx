@@ -32,16 +32,8 @@ export const AboutCourse = () => {
         contest, which has become regular by this time.
       </p>
 
-      <h4
-        style={{
-          backgroundColor: "#EE7C7C",
-          color: "white",
-          textAlign: "left",
-        }}
-      >
-        About The Department
-      </h4>
-      <ul style={{ textAlign: "left", fontSize: "14px", marginTop: "10px" }}>
+      <h4>About The Department</h4>
+      <ul>
         <li>Our department has CSI (Computer Society of India) membership.</li>
 
         <li>
@@ -54,16 +46,8 @@ export const AboutCourse = () => {
           outstanding.
         </li>
       </ul>
-      <h4
-        style={{
-          backgroundColor: "#EE7C7C",
-          color: "white",
-          textAlign: "left",
-        }}
-      >
-        Career Propspects
-      </h4>
-      <ul style={{ textAlign: "left", fontSize: "14px", marginTop: "10px" }}>
+      <h4>Career Propspects</h4>
+      <ul>
         <li>
           Computer Engineers can work as a Software/Hardware Engineer, which are
           the two main sectors in the computer industry.
@@ -93,16 +77,8 @@ export const AboutCourse = () => {
           all occupations.
         </li>
       </ul>
-      <h4
-        style={{
-          backgroundColor: "#EE7C7C",
-          color: "white",
-          textAlign: "left",
-        }}
-      >
-        Objectives
-      </h4>
-      <ul style={{ textAlign: "left", fontSize: "14px", marginTop: "10px" }}>
+      <h4>Objectives</h4>
+      <ul>
         <li>To prepare students to attain 100% result.</li>
         <li>
           To create awareness of the persistent concepts in computer field.
