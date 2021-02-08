@@ -47,124 +47,68 @@ export const UGCoursesDetails = () => {
 
             <Nav.Link className="navclass">Vision & Mision</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              PEO's & PSO's
-            </Nav.Link>
+            <Nav.Link className="navclass">PEO's & PSO's</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Course OutCome
-            </Nav.Link>
+            <Nav.Link className="navclass">Course OutCome</Nav.Link>
             <Button>BE (CIVIL)</Button>
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              About Course
-            </Nav.Link>
+            <Nav.Link className="navclass">About Course</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Vision & Mision
-            </Nav.Link>
+            <Nav.Link className="navclass">Vision & Mision</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              PEO's & PSO's
-            </Nav.Link>
+            <Nav.Link className="navclass">PEO's & PSO's</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Course OutCome
-            </Nav.Link>
+            <Nav.Link className="navclass">Course OutCome</Nav.Link>
             <Button>BE (MECH)</Button>
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              About Course
-            </Nav.Link>
+            <Nav.Link className="navclass">About Course</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Vision & Mision
-            </Nav.Link>
+            <Nav.Link className="navclass">Vision & Mision</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              PEO's & PSO's
-            </Nav.Link>
+            <Nav.Link className="navclass">PEO's & PSO's</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Course OutCome
-            </Nav.Link>
+            <Nav.Link className="navclass">Course OutCome</Nav.Link>
 
             <Button>BE (ECE)</Button>
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              About Course
-            </Nav.Link>
+            <Nav.Link className="navclass">About Course</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Vision & Mision
-            </Nav.Link>
+            <Nav.Link className="navclass">Vision & Mision</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              PEO's & PSO's
-            </Nav.Link>
+            <Nav.Link className="navclass">PEO's & PSO's</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Course OutCome
-            </Nav.Link>
+            <Nav.Link className="navclass">Course OutCome</Nav.Link>
             <Button>BE (EEE)</Button>
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              About Course
-            </Nav.Link>
+            <Nav.Link className="navclass">About Course</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Vision & Mision
-            </Nav.Link>
+            <Nav.Link className="navclass">Vision & Mision</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              PEO's & PSO's
-            </Nav.Link>
+            <Nav.Link className="navclass">PEO's & PSO's</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Course OutCome
-            </Nav.Link>
+            <Nav.Link className="navclass">Course OutCome</Nav.Link>
             <Button>PG Courses</Button>
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              ME (CSE)
-            </Nav.Link>
+            <Nav.Link className="navclass">ME (CSE)</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              ME (CIVIL STRUCTURE)
-            </Nav.Link>
+            <Nav.Link className="navclass">ME (CIVIL STRUCTURE)</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              ME (MECH-HVAC)
-            </Nav.Link>
+            <Nav.Link className="navclass">ME (MECH-HVAC)</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              ME (ECE-ES)
-            </Nav.Link>
+            <Nav.Link className="navclass">ME (ECE-ES)</Nav.Link>
             <Button>DIPLOMA COURSES</Button>
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              POLYTECHNIC (CIVIL)
-            </Nav.Link>
+            <Nav.Link className="navclass">POLYTECHNIC (CIVIL)</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              POLYTECHNIC (ME)
-            </Nav.Link>
+            <Nav.Link className="navclass">POLYTECHNIC (ME)</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              POLYTECHNIC (ECE)
-            </Nav.Link>
+            <Nav.Link className="navclass">POLYTECHNIC (ECE)</Nav.Link>
 
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              POLYTECHNIC (EEE)
-            </Nav.Link>
+            <Nav.Link className="navclass">POLYTECHNIC (EEE)</Nav.Link>
             <Button>HUMAN VALUES & PROFESSIONAL ETHICS</Button>
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
+            <Nav.Link className="navclass">
               Human Values & Professional Ethics
             </Nav.Link>
             <Button>CISCO NETWORKING ACADEMY</Button>
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Cisco Networking Academy
-            </Nav.Link>
+            <Nav.Link className="navclass">Cisco Networking Academy</Nav.Link>
             <Button>CAMBRIDGE ENGLISH</Button>
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
-              Cambridge English
-            </Nav.Link>
+            <Nav.Link className="navclass">Cambridge English</Nav.Link>
             <Button>TASK</Button>
-            <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
+            <Nav.Link className="navclass">
               TS Academy For Skill & Knowledge
             </Nav.Link>
           </Card>
