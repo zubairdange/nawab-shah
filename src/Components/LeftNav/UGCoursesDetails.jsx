@@ -4,29 +4,11 @@ import "../LeftNav/LeftNav.css";
 export const UGCoursesDetails = () => {
   return (
     <div>
-      <Row style={{ marginTop: "10px", marginLeft: "10px" }}>
+      <Row>
         <Col lg="3">
           <Card>
-            <Button
-              style={{
-                marginTop: "10px",
-                marginLeft: "10px",
-                marginRight: "10px",
-                fontSize: "20px",
-              }}
-            >
-              UG Courses
-            </Button>
-            <Button
-              style={{
-                marginTop: "10px",
-                marginLeft: "10px",
-                marginRight: "10px",
-                fontSize: "20px",
-              }}
-            >
-              BE (CSE)
-            </Button>
+            <Button>UG Courses</Button>
+            <Button className="mybutton">BE (CSE)</Button>
             <Nav.Link style={{ fontSize: "16px", textAlign: "left" }}>
               About Course
             </Nav.Link>
@@ -43,12 +25,12 @@ export const UGCoursesDetails = () => {
               Course OutCome
             </Nav.Link>
             <Button
-              style={{
-                marginTop: "10px",
-                marginLeft: "10px",
-                marginRight: "10px",
-                fontSize: "20px",
-              }}
+            // style={{
+            //   marginTop: "10px",
+            //   marginLeft: "10px",
+            //   marginRight: "10px",
+            //   fontSize: "20px",
+            // }}
             >
               BE (IT)
             </Button>
@@ -69,12 +51,12 @@ export const UGCoursesDetails = () => {
             </Nav.Link>
 
             <Button
-              style={{
-                marginTop: "10px",
-                marginLeft: "10px",
-                marginRight: "10px",
-                fontSize: "20px",
-              }}
+            // style={{
+            //   marginTop: "10px",
+            //   marginLeft: "10px",
+            //   marginRight: "10px",
+            //   fontSize: "20px",
+            // }}
             >
               BE (DS)
             </Button>
@@ -95,12 +77,12 @@ export const UGCoursesDetails = () => {
             </Nav.Link>
 
             <Button
-              style={{
-                marginTop: "10px",
-                marginLeft: "10px",
-                marginRight: "10px",
-                fontSize: "20px",
-              }}
+            // style={{
+            //   marginTop: "10px",
+            //   marginLeft: "10px",
+            //   marginRight: "10px",
+            //   fontSize: "20px",
+            // }}
             >
               BE (AI & ML)
             </Button>
@@ -120,12 +102,12 @@ export const UGCoursesDetails = () => {
               Course OutCome
             </Nav.Link>
             <Button
-              style={{
-                marginTop: "10px",
-                marginLeft: "10px",
-                marginRight: "10px",
-                fontSize: "20px",
-              }}
+            // style={{
+            //   marginTop: "10px",
+            //   marginLeft: "10px",
+            //   marginRight: "10px",
+            //   fontSize: "20px",
+            // }}
             >
               BE (IOT,CYBER SECURITY,BLOCK CHAIN)
             </Button>
@@ -145,12 +127,12 @@ export const UGCoursesDetails = () => {
               Course OutCome
             </Nav.Link>
             <Button
-              style={{
-                marginTop: "10px",
-                marginLeft: "10px",
-                marginRight: "10px",
-                fontSize: "20px",
-              }}
+            // style={{
+            //   marginTop: "10px",
+            //   marginLeft: "10px",
+            //   marginRight: "10px",
+            //   fontSize: "20px",
+            // }}
             >
               BE (CIVIL)
             </Button>
@@ -170,12 +152,12 @@ export const UGCoursesDetails = () => {
               Course OutCome
             </Nav.Link>
             <Button
-              style={{
-                marginTop: "10px",
-                marginLeft: "10px",
-                marginRight: "10px",
-                fontSize: "20px",
-              }}
+            // style={{
+            //   marginTop: "10px",
+            //   marginLeft: "10px",
+            //   marginRight: "10px",
+            //   fontSize: "20px",
+            // }}
             >
               BE (MECH)
             </Button>
@@ -196,12 +178,12 @@ export const UGCoursesDetails = () => {
             </Nav.Link>
 
             <Button
-              style={{
-                marginTop: "10px",
-                marginLeft: "10px",
-                marginRight: "10px",
-                fontSize: "20px",
-              }}
+            // style={{
+            //   marginTop: "10px",
+            //   marginLeft: "10px",
+            //   marginRight: "10px",
+            //   fontSize: "20px",
+            // }}
             >
               BE (ECE)
             </Button>
@@ -221,12 +203,12 @@ export const UGCoursesDetails = () => {
               Course OutCome
             </Nav.Link>
             <Button
-              style={{
-                marginTop: "10px",
-                marginLeft: "10px",
-                marginRight: "10px",
-                fontSize: "20px",
-              }}
+            // style={{
+            //   marginTop: "10px",
+            //   marginLeft: "10px",
+            //   marginRight: "10px",
+            //   fontSize: "20px",
+            // }}
             >
               BE (EEE)
             </Button>
@@ -246,12 +228,12 @@ export const UGCoursesDetails = () => {
               Course OutCome
             </Nav.Link>
             <Button
-              style={{
-                marginTop: "10px",
-                marginLeft: "10px",
-                marginRight: "10px",
-                fontSize: "20px",
-              }}
+            // style={{
+            //   marginTop: "10px",
+            //   marginLeft: "10px",
+            //   marginRight: "10px",
+            //   fontSize: "20px",
+            // }}
             >
               PG Courses
             </Button>
@@ -271,12 +253,12 @@ export const UGCoursesDetails = () => {
               ME (ECE-ES)
             </Nav.Link>
             <Button
-              style={{
-                marginTop: "10px",
-                marginLeft: "10px",
-                marginRight: "10px",
-                fontSize: "20px",
-              }}
+            // style={{
+            //   marginTop: "10px",
+            //   marginLeft: "10px",
+            //   marginRight: "10px",
+            //   fontSize: "20px",
+            // }}
             >
               DIPLOMA COURSES
             </Button>
@@ -296,12 +278,12 @@ export const UGCoursesDetails = () => {
               POLYTECHNIC (EEE)
             </Nav.Link>
             <Button
-              style={{
-                marginTop: "10px",
-                marginLeft: "10px",
-                marginRight: "10px",
-                fontSize: "20px",
-              }}
+            // style={{
+            //   marginTop: "10px",
+            //   marginLeft: "10px",
+            //   marginRight: "10px",
+            //   fontSize: "20px",
+            // }}
             >
               HUMAN VALUES & PROFESSIONAL ETHICS
             </Button>
@@ -309,12 +291,12 @@ export const UGCoursesDetails = () => {
               Human Values & Professional Ethics
             </Nav.Link>
             <Button
-              style={{
-                marginTop: "10px",
-                marginLeft: "10px",
-                marginRight: "10px",
-                fontSize: "20px",
-              }}
+            // style={{
+            //   marginTop: "10px",
+            //   marginLeft: "10px",
+            //   marginRight: "10px",
+            //   fontSize: "20px",
+            // }}
             >
               CISCO NETWORKING ACADEMY
             </Button>
@@ -322,12 +304,12 @@ export const UGCoursesDetails = () => {
               Cisco Networking Academy
             </Nav.Link>
             <Button
-              style={{
-                marginTop: "10px",
-                marginLeft: "10px",
-                marginRight: "10px",
-                fontSize: "20px",
-              }}
+            // style={{
+            //   marginTop: "10px",
+            //   marginLeft: "10px",
+            //   marginRight: "10px",
+            //   fontSize: "20px",
+            // }}
             >
               CAMBRIDGE ENGLISH
             </Button>
@@ -335,12 +317,12 @@ export const UGCoursesDetails = () => {
               Cambridge English
             </Nav.Link>
             <Button
-              style={{
-                marginTop: "10px",
-                marginLeft: "10px",
-                marginRight: "10px",
-                fontSize: "18px",
-              }}
+            // style={{
+            //   marginTop: "10px",
+            //   marginLeft: "10px",
+            //   marginRight: "10px",
+            //   fontSize: "18px",
+            // }}
             >
               TASK
             </Button>
