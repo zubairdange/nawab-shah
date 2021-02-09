@@ -3,7 +3,7 @@ import "../BE(CSE)/BECSE.css";
 export const VisionMisionMech = () => {
   return (
     <div>
-      <h3 className="headerclass">BTECH-CIVIL-Vision & Mission</h3>
+      <h3 className="headerclass">BTECH-MECHANICAL-Vision & Mission</h3>
       <h4>Our Vision</h4>
       <p>
         To achieve excellence in Mechanical Engineering by imparting technical

@@ -18,6 +18,14 @@ import { AboutCourseMech } from "./UGCourses/BE(MECH)/AboutCourseMech";
 import { VisionMisionMech } from "./UGCourses/BE(MECH)/VisionMisionMech";
 import { SourceOutcomeMech } from "./UGCourses/BE(MECH)/SourceOutcomeMech";
 import { PEOMech } from "./UGCourses/BE(MECH)/PEOMech";
+import { AboutCourseECE } from "./UGCourses/BE(ECE)/AboutCourseECE";
+import { VisionMisionECE } from "./UGCourses/BE(ECE)/VisionMisionECE";
+import { SourceOutcomeECE } from "./UGCourses/BE(ECE)/SourceOutcomeECE";
+import { PEOECE } from "./UGCourses/BE(ECE)/PEOECE";
+import { AboutCourseEEE } from "./UGCourses/BE(EEE)/AboutCourseEEE";
+import { VisionMisionEEE } from "./UGCourses/BE(EEE)/VisionMisionEEE";
+import { SourceOutcomeEEE } from "./UGCourses/BE(EEE)/SourceOutcomeEEE";
+import { PEOEEE } from "./UGCourses/BE(EEE)/PEOEEE";
 export const UGCoursesDetails = () => {
   const [isshowCse, setIsShowCse] = useState(false);
   const [isShowIT, setISShowIT] = useState(false);
@@ -143,23 +151,40 @@ export const UGCoursesDetails = () => {
             </Nav>
             <Button>BE (ECE)</Button>
             <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass">About Course</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/ECEBTECH">
+                About Course
+              </Nav.Link>
 
-              <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/B-ECE-VisionMission">
+                Vision & Mision
+              </Nav.Link>
 
-              <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/B-ECE-POSPSOS">
+                PEO's & PSO's
+              </Nav.Link>
 
-              <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/B-ECE-CourseOutcomes">
+                Course OutCome
+              </Nav.Link>
             </Nav>
             <Button>BE (EEE)</Button>
             <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass">About Course</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/EEEBTECH">
+                {" "}
+                About Course
+              </Nav.Link>
 
-              <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/B-EEE-VisionMission">
+                Vision & Mision
+              </Nav.Link>
 
-              <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/B-EEE-POSPSOS">
+                PEO's & PSO's
+              </Nav.Link>
 
-              <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/B-ECE-CourseOutcomes">
+                Course OutCome
+              </Nav.Link>
             </Nav>
             <Button>PG Courses</Button>
             <Nav className="navmainclass">
@@ -256,6 +281,30 @@ export const UGCoursesDetails = () => {
               </Route>
               <Route path="/B-MECH-CourseOutcomes">
                 <SourceOutcomeMech />
+              </Route>
+              <Route path="/ECEBTECH">
+                <AboutCourseECE />
+              </Route>
+              <Route path="/B-ECE-VisionMission">
+                <VisionMisionECE />
+              </Route>
+              <Route path="/B-ECE-POSPSOS">
+                <PEOECE />
+              </Route>
+              <Route path="/B-ECE-CourseOutcomes">
+                <SourceOutcomeECE />
+              </Route>
+              <Route path="/EEEBTECH">
+                <AboutCourseEEE />
+              </Route>
+              <Route path="/B-EEE-VisionMission">
+                <VisionMisionEEE />
+              </Route>
+              <Route path="/B-EEE-POSPSOS">
+                <PEOEEE />
+              </Route>
+              <Route path="/B-EEE-CourseOutcomes">
+                <SourceOutcomeEEE />
               </Route>
             </Switch>
           </Router>

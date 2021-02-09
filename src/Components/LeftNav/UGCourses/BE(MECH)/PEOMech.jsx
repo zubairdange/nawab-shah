@@ -3,30 +3,39 @@ export const PEOMech = () => {
   return (
     <div>
       <h3 className="headerclass">
-        BTECH-CIVIL-Program Educational Outcomes (PEOs)
+        BTECH-Mechanical-Program Educational Outcomes (PEOs)
       </h3>
       <ul>
         <li>
-          PEO1 : Graduates will be capable of handling the Civil Engineering
-          projects independently in their future assignments.
+          PEO1 : Graduates will apply their engineering knowledge and problem
+          solving skills to design mechanical systems and processes.
         </li>
         <li>
-          PEO2 : Graduated exhibit human values along with technical skills in
-          their chosen fields of employment in adopting the concepts or
-          obtaining solutions for the real time problems.
+          PEO2 : Graduates will embrace leadership skills at various roles in
+          their careers and establish excellence in the field of Mechanical
+          Engineering.
+        </li>
+        <li>
+          PEO3 : Graduates will provide engineering solutions to meet industrial
+          requirements there by full fill global and societal needs.
         </li>
       </ul>
       <h3 className="headerclass">
-        BTECH-CIVIL-Program Specific Outcomes (PSOs)
+        BTECH-Mechanical-Program Specific Outcomes (PSOs)
       </h3>
       <ul>
         <li>
-          PSO1 : To plan, perform analysis, design, estimate and execute all
-          kinds of Civil Engineering Projects.
+          PSO1 : Implement new ideas on product design and development with the
+          help of modern computer aided tools, while ensuring best manufacturing
+          practices.
         </li>
         <li>
-          PSO2 : To adopt latest technologies and use modern techniques, so as
-          to execute projects efficiently and effectively.
+          PSO2 : Impart technical knowledge, ethical values and managerial
+          skills to make successful mechanical engineers.
+        </li>
+        <li>
+          PSO3 : Develop innovative attitude, critical thinking and problem
+          solving approach for any domains of mechanical engineering.
         </li>
       </ul>
     </div>
