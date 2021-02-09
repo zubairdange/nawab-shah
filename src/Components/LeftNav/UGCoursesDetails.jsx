@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Card, Row, Col, Button, Nav } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "../LeftNav/LeftNav.css";
@@ -6,40 +6,60 @@ import { AboutCourse } from "./UGCourses/BE(CSE)/AboutCourse";
 import { VisionMision } from "./UGCourses/BE(CSE)/VisionMision";
 import { SourceOutcome } from "./UGCourses/BE(CSE)/SourceOutcome";
 import { PEO } from "./UGCourses/BE(CSE)/PEO";
+import { AboutCourseIT } from "./UGCourses/BE(IT)/AboutCourseIT";
+import { VisionMisionIT } from "./UGCourses/BE(IT)/VisionMisionIT";
+import { SourceOutcomeIT } from "./UGCourses/BE(IT)/SourceOutcomeIT";
+import { PEOIT } from "./UGCourses/BE(IT)/PEOIT";
 export const UGCoursesDetails = () => {
+  const [isshowCse, setIsShowCse] = useState(false);
+  const handleshow = () => {
+    setIsShowCse(true);
+  };
   return (
     <div style={{ marginTop: "20px" }}>
       <Row>
         <Col lg="3">
           <Card>
             <Button>UG Courses</Button>
-            <Button className="mybutton">BE (CSE)</Button>
+            <Button className="mybutton" onClick={handleshow}>
+              BE (CSE)
+            </Button>
+            {isshowCse && (
+              <Nav className="navmainclass">
+                <Nav.Link className="navlinkclass" href="/CSEBTECH">
+                  About Course
+                </Nav.Link>
+
+                <Nav.Link className="navlinkclass" href="/B-CSE-VisionMission">
+                  Vision & Mission
+                </Nav.Link>
+
+                <Nav.Link className="navlinkclass" href="/B-CSE-POSPSOS">
+                  PEO's & PSO's
+                </Nav.Link>
+
+                <Nav.Link className="navlinkclass" href="/B-CSE-CourseOutcomes">
+                  Course OutCome
+                </Nav.Link>
+              </Nav>
+            )}
+            <Button>BE (IT)</Button>
             <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass" href="/CSEBTECH">
+              <Nav.Link className="navlinkclass" href="/ITBTECH">
                 About Course
               </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/B-CSE-VisionMission">
-                Vision & Mission
+              <Nav.Link className="navlinkclass" href="/B-IT-VisionMission">
+                Vision & Mision
               </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/B-CSE-POSPSOS">
+              <Nav.Link className="navlinkclass" href="/B-IT-POSPSOS">
                 PEO's & PSO's
               </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/B-CSE-CourseOutcomes">
+              <Nav.Link className="navlinkclass" href="/B-IT-CourseOutcomes">
                 Course OutCome
               </Nav.Link>
-            </Nav>
-            <Button>BE (IT)</Button>
-            <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass">About Course</Nav.Link>
-
-              <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
-
-              <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
-
-              <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
             </Nav>
             <Button>BE (DS)</Button>
             <Nav className="navmainclass">
@@ -170,6 +190,18 @@ export const UGCoursesDetails = () => {
               </Route>
               <Route path="/B-CSE-CourseOutcomes">
                 <SourceOutcome />
+              </Route>
+              <Route path="/ITBTECH">
+                <AboutCourseIT />
+              </Route>
+              <Route path="/B-IT-VisionMission">
+                <VisionMisionIT />
+              </Route>
+              <Route path="/B-IT-POSPSOS">
+                <PEOIT />
+              </Route>
+              <Route path="/B-IT-CourseOutcomes">
+                <SourceOutcomeIT />
               </Route>
             </Switch>
           </Router>
