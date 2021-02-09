@@ -14,6 +14,10 @@ import { AboutCourseCivil } from "./UGCourses/BE(CIVIL)/AboutCourseCivil";
 import { VisionMisionCivil } from "./UGCourses/BE(CIVIL)/VisionMisionCivil";
 import { SourceOutcomeCivil } from "./UGCourses/BE(CIVIL)/SourceOutcomeCivil";
 import { PEOCivil } from "./UGCourses/BE(CIVIL)/PEOCivil";
+import { AboutCourseMech } from "./UGCourses/BE(MECH)/AboutCourseMech";
+import { VisionMisionMech } from "./UGCourses/BE(MECH)/VisionMisionMech";
+import { SourceOutcomeMech } from "./UGCourses/BE(MECH)/SourceOutcomeMech";
+import { PEOMech } from "./UGCourses/BE(MECH)/PEOMech";
 export const UGCoursesDetails = () => {
   const [isshowCse, setIsShowCse] = useState(false);
   const [isShowIT, setISShowIT] = useState(false);
@@ -121,13 +125,21 @@ export const UGCoursesDetails = () => {
             </Nav>
             <Button>BE (MECH)</Button>
             <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass">About Course</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/MECHBTECH">
+                About Course
+              </Nav.Link>
 
-              <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/B-MECH-VisionMission">
+                Vision & Mision
+              </Nav.Link>
 
-              <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/B-MECH-POSPSOS">
+                PEO's & PSO's
+              </Nav.Link>
 
-              <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/B-MECH-CourseOutcomes">
+                Course OutCome
+              </Nav.Link>
             </Nav>
             <Button>BE (ECE)</Button>
             <Nav className="navmainclass">
@@ -232,6 +244,18 @@ export const UGCoursesDetails = () => {
               </Route>
               <Route path="/B-CIVIL-CourseOutcomes">
                 <SourceOutcomeCivil />
+              </Route>
+              <Route path="/MECHBTECH">
+                <AboutCourseMech />
+              </Route>
+              <Route path="/B-MECH-VisionMission">
+                <VisionMisionMech />
+              </Route>
+              <Route path="/B-MECH-POSPSOS">
+                <PEOMech />
+              </Route>
+              <Route path="/B-MECH-CourseOutcomes">
+                <SourceOutcomeMech />
               </Route>
             </Switch>
           </Router>
