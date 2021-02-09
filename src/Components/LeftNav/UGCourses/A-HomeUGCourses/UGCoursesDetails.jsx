@@ -26,6 +26,7 @@ import { AboutCourseEEE } from "../BE(EEE)/AboutCourseEEE";
 import { VisionMisionEEE } from "../BE(EEE)/VisionMisionEEE";
 import { SourceOutcomeEEE } from "../BE(EEE)/SourceOutcomeEEE";
 import { PEOEEE } from "../BE(EEE)/PEOEEE";
+import { PGCoursesDetails } from "../../PGCourses/A-HomePGCourses/PGCoursesDetails";
 export const UGCoursesDetails = () => {
   const [isshowCse, setIsShowCse] = useState(false);
   const [isShowIT, setISShowIT] = useState(false);
@@ -45,12 +46,7 @@ export const UGCoursesDetails = () => {
         <Col lg="3">
           <Card>
             <Button>UG Courses</Button>
-            <Button
-              className="mybutton"
-              onClick={() => setIsShowCse(!isshowCse)}
-            >
-              BE (CSE)
-            </Button>
+            <Button onClick={() => setIsShowCse(!isshowCse)}>BE (CSE)</Button>
             {isshowCse && (
               <Nav className="navmainclass">
                 <Nav.Link className="navlinkclass" href="/CSEBTECH">
@@ -224,7 +220,8 @@ export const UGCoursesDetails = () => {
                 </Nav.Link>
               </Nav>
             )}
-            <Button>PG Courses</Button>
+            <PGCoursesDetails />
+            {/* <Button>PG Courses</Button>
             <Nav className="navmainclass">
               <Nav.Link className="navlinkclass">ME (CSE)</Nav.Link>
 
@@ -233,7 +230,7 @@ export const UGCoursesDetails = () => {
               <Nav.Link className="navlinkclass">ME (MECH-HVAC)</Nav.Link>
 
               <Nav.Link className="navlinkclass">ME (ECE-ES)</Nav.Link>
-            </Nav>
+            </Nav> */}
             <Button>DIPLOMA COURSES</Button>
             <Nav className="navmainclass">
               <Nav.Link className="navlinkclass">POLYTECHNIC (CIVIL)</Nav.Link>
