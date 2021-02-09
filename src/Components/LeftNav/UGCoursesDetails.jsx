@@ -12,6 +12,7 @@ import { SourceOutcomeIT } from "./UGCourses/BE(IT)/SourceOutcomeIT";
 import { PEOIT } from "./UGCourses/BE(IT)/PEOIT";
 export const UGCoursesDetails = () => {
   const [isshowCse, setIsShowCse] = useState(false);
+  const [isShowIT, setISShowIT] = useState(false);
   // const handleshow = () => {
   //   setIsShowCse(!isshowCse);
   // };
@@ -46,24 +47,26 @@ export const UGCoursesDetails = () => {
                 </Nav.Link>
               </Nav>
             )}
-            <Button>BE (IT)</Button>
-            <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass" href="/ITBTECH">
-                About Course
-              </Nav.Link>
+            <Button onClick={() => setISShowIT(!isShowIT)}>BE (IT)</Button>
+            {isShowIT && (
+              <Nav className="navmainclass">
+                <Nav.Link className="navlinkclass" href="/ITBTECH">
+                  About Course
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/B-IT-VisionMission">
-                Vision & Mision
-              </Nav.Link>
+                <Nav.Link className="navlinkclass" href="/B-IT-VisionMission">
+                  Vision & Mision
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/B-IT-POSPSOS">
-                PEO's & PSO's
-              </Nav.Link>
+                <Nav.Link className="navlinkclass" href="/B-IT-POSPSOS">
+                  PEO's & PSO's
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/B-IT-CourseOutcomes">
-                Course OutCome
-              </Nav.Link>
-            </Nav>
+                <Nav.Link className="navlinkclass" href="/B-IT-CourseOutcomes">
+                  Course OutCome
+                </Nav.Link>
+              </Nav>
+            )}
             <Button>BE (DS)</Button>
             <Nav className="navmainclass">
               <Nav.Link className="navlinkclass">About Course</Nav.Link>
