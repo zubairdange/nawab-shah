@@ -3,9 +3,9 @@ export const PEOEEE = () => {
   return (
     <div>
       <h3 className="headerclass">
-        BTECH-CIVIL-Program Educational Outcomes (PEOs)
+        BTECH-EEE-Program Educational Outcomes (PEOs)
       </h3>
-      <ul>
+      {/* <ul>
         <li>
           PEO1 : Graduates will be capable of handling the Civil Engineering
           projects independently in their future assignments.
@@ -15,11 +15,11 @@ export const PEOEEE = () => {
           their chosen fields of employment in adopting the concepts or
           obtaining solutions for the real time problems.
         </li>
-      </ul>
+      </ul> */}
       <h3 className="headerclass">
-        BTECH-CIVIL-Program Specific Outcomes (PSOs)
+        BTECH-EEE-Program Specific Outcomes (PSOs)
       </h3>
-      <ul>
+      {/* <ul>
         <li>
           PSO1 : To plan, perform analysis, design, estimate and execute all
           kinds of Civil Engineering Projects.
@@ -28,7 +28,7 @@ export const PEOEEE = () => {
           PSO2 : To adopt latest technologies and use modern techniques, so as
           to execute projects efficiently and effectively.
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 };

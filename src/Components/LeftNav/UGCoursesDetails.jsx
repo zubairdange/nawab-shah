@@ -29,6 +29,13 @@ import { PEOEEE } from "./UGCourses/BE(EEE)/PEOEEE";
 export const UGCoursesDetails = () => {
   const [isshowCse, setIsShowCse] = useState(false);
   const [isShowIT, setISShowIT] = useState(false);
+  const [isShowDS, setISShowDS] = useState(false);
+  const [isShowAIML, setISShowAIML] = useState(false);
+  const [isShowCyber, setISShowCyber] = useState(false);
+  const [isShowCivil, setISShowCivil] = useState(false);
+  const [isShowMech, setISShowMech] = useState(false);
+  const [isShowECE, setISShowECE] = useState(false);
+  const [isShowEEE, setISShowEEE] = useState(false);
   // const handleshow = () => {
   //   setIsShowCse(!isshowCse);
   // };
@@ -83,109 +90,140 @@ export const UGCoursesDetails = () => {
                 </Nav.Link>
               </Nav>
             )}
-            <Button>BE (DS)</Button>
-            <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass">About Course</Nav.Link>
+            <Button onClick={() => setISShowDS(!isShowDS)}>BE (DS)</Button>
+            {isShowDS && (
+              <Nav className="navmainclass">
+                <Nav.Link className="navlinkclass">About Course</Nav.Link>
 
-              <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
+                <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
 
-              <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
+                <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
 
-              <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
-            </Nav>
-            <Button>BE (AI & ML)</Button>
-            <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass">About Course</Nav.Link>
+                <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
+              </Nav>
+            )}
+            <Button onClick={() => setISShowAIML(!isShowAIML)}>
+              BE (AI & ML)
+            </Button>
+            {isShowAIML && (
+              <Nav className="navmainclass">
+                <Nav.Link className="navlinkclass">About Course</Nav.Link>
 
-              <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
+                <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
 
-              <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
+                <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
 
-              <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
-            </Nav>
-            <Button>BE (IOT,CYBER SECURITY,BLOCK CHAIN)</Button>
-            <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass">About Course</Nav.Link>
+                <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
+              </Nav>
+            )}
+            <Button onClick={() => setISShowCyber(!isShowCyber)}>
+              BE (IOT,CYBER SECURITY,BLOCK CHAIN)
+            </Button>
+            {isShowCyber && (
+              <Nav className="navmainclass">
+                <Nav.Link className="navlinkclass">About Course</Nav.Link>
 
-              <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
+                <Nav.Link className="navlinkclass">Vision & Mision</Nav.Link>
 
-              <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
+                <Nav.Link className="navlinkclass">PEO's & PSO's</Nav.Link>
 
-              <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
-            </Nav>
-            <Button>BE (CIVIL)</Button>
-            <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass" href="/CIVILBTECH">
-                About Course
-              </Nav.Link>
+                <Nav.Link className="navlinkclass">Course OutCome</Nav.Link>
+              </Nav>
+            )}
+            <Button onClick={() => setISShowCivil(!isShowCivil)}>
+              BE (CIVIL)
+            </Button>
+            {isShowCivil && (
+              <Nav className="navmainclass">
+                <Nav.Link className="navlinkclass" href="/CIVILBTECH">
+                  About Course
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/B-CIVIL-VisionMission">
-                Vision & Mision
-              </Nav.Link>
+                <Nav.Link
+                  className="navlinkclass"
+                  href="/B-CIVIL-VisionMission"
+                >
+                  Vision & Mision
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/B-CIVIL-POSPSOS">
-                PEO's & PSO's
-              </Nav.Link>
+                <Nav.Link className="navlinkclass" href="/B-CIVIL-POSPSOS">
+                  PEO's & PSO's
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/B-CIVIL-CourseOutcomes">
-                Course OutCome
-              </Nav.Link>
-            </Nav>
-            <Button>BE (MECH)</Button>
-            <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass" href="/MECHBTECH">
-                About Course
-              </Nav.Link>
+                <Nav.Link
+                  className="navlinkclass"
+                  href="/B-CIVIL-CourseOutcomes"
+                >
+                  Course OutCome
+                </Nav.Link>
+              </Nav>
+            )}
+            <Button onClick={() => setISShowMech(!isShowMech)}>
+              BE (MECH)
+            </Button>
+            {isShowMech && (
+              <Nav className="navmainclass">
+                <Nav.Link className="navlinkclass" href="/MECHBTECH">
+                  About Course
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/B-MECH-VisionMission">
-                Vision & Mision
-              </Nav.Link>
+                <Nav.Link className="navlinkclass" href="/B-MECH-VisionMission">
+                  Vision & Mision
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/B-MECH-POSPSOS">
-                PEO's & PSO's
-              </Nav.Link>
+                <Nav.Link className="navlinkclass" href="/B-MECH-POSPSOS">
+                  PEO's & PSO's
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/B-MECH-CourseOutcomes">
-                Course OutCome
-              </Nav.Link>
-            </Nav>
-            <Button>BE (ECE)</Button>
-            <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass" href="/ECEBTECH">
-                About Course
-              </Nav.Link>
+                <Nav.Link
+                  className="navlinkclass"
+                  href="/B-MECH-CourseOutcomes"
+                >
+                  Course OutCome
+                </Nav.Link>
+              </Nav>
+            )}
+            <Button onClick={() => setISShowECE(!isShowECE)}>BE (ECE)</Button>
+            {isShowECE && (
+              <Nav className="navmainclass">
+                <Nav.Link className="navlinkclass" href="/ECEBTECH">
+                  About Course
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/B-ECE-VisionMission">
-                Vision & Mision
-              </Nav.Link>
+                <Nav.Link className="navlinkclass" href="/B-ECE-VisionMission">
+                  Vision & Mision
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/B-ECE-POSPSOS">
-                PEO's & PSO's
-              </Nav.Link>
+                <Nav.Link className="navlinkclass" href="/B-ECE-POSPSOS">
+                  PEO's & PSO's
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/B-ECE-CourseOutcomes">
-                Course OutCome
-              </Nav.Link>
-            </Nav>
-            <Button>BE (EEE)</Button>
-            <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass" href="/EEEBTECH">
-                {" "}
-                About Course
-              </Nav.Link>
+                <Nav.Link className="navlinkclass" href="/B-ECE-CourseOutcomes">
+                  Course OutCome
+                </Nav.Link>
+              </Nav>
+            )}
+            <Button onClick={() => setISShowECE(!isShowECE)}>BE (EEE)</Button>
+            {isShowEEE && (
+              <Nav className="navmainclass">
+                <Nav.Link className="navlinkclass" href="/EEEBTECH">
+                  {" "}
+                  About Course
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/B-EEE-VisionMission">
-                Vision & Mision
-              </Nav.Link>
+                <Nav.Link className="navlinkclass" href="/B-EEE-VisionMission">
+                  Vision & Mision
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/B-EEE-POSPSOS">
-                PEO's & PSO's
-              </Nav.Link>
+                <Nav.Link className="navlinkclass" href="/B-EEE-POSPSOS">
+                  PEO's & PSO's
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/B-ECE-CourseOutcomes">
-                Course OutCome
-              </Nav.Link>
-            </Nav>
+                <Nav.Link className="navlinkclass" href="/B-ECE-CourseOutcomes">
+                  Course OutCome
+                </Nav.Link>
+              </Nav>
+            )}
             <Button>PG Courses</Button>
             <Nav className="navmainclass">
               <Nav.Link className="navlinkclass">ME (CSE)</Nav.Link>
