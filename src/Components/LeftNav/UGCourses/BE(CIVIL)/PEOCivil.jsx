@@ -3,39 +3,30 @@ export const PEOCivil = () => {
   return (
     <div>
       <h3 className="headerclass">
-        BTECH-IT-Program Educational Outcomes (PEOs)
+        BTECH-CIVIL-Program Educational Outcomes (PEOs)
       </h3>
       <ul>
         <li>
-          PEO1 : Graduates will excel in their professional career and higher
-          education in Information Technology and chosen fields.
+          PEO1 : Graduates will be capable of handling the Civil Engineering
+          projects independently in their future assignments.
         </li>
         <li>
-          PEO2 : Graduates will be prepared for a successful career, to meet the
-          diversified needs of industry, academia and research.
-        </li>
-        <li>
-          PEO3 : Graduates will demonstrate leadership qualities, team work and
-          professional ethics to serve the society.
-        </li>
-        <li>
-          PEO4 : Graduates will inculcate the qualities of leadership in
-          technology innovation and entrepreneurship with effective
-          communication skills, teamwork, and ethics with life-long learning.
+          PEO2 : Graduated exhibit human values along with technical skills in
+          their chosen fields of employment in adopting the concepts or
+          obtaining solutions for the real time problems.
         </li>
       </ul>
-      <h3 className="headerclass">BTECH-IT-Program Specific Outcomes (PSOs)</h3>
+      <h3 className="headerclass">
+        BTECH-CIVIL-Program Specific Outcomes (PSOs)
+      </h3>
       <ul>
         <li>
-          PSO1 : Create, select, and apply appropriate techniques, resources,
-          modern engineering and IT tools including prediction and modeling to
-          complex engineering activities with an understanding of the
-          limitations.
+          PSO1 : To plan, perform analysis, design, estimate and execute all
+          kinds of Civil Engineering Projects.
         </li>
         <li>
-          PSO2 : Manage real time IT projects with consideration of the human,
-          financial, ethical and environmental factors and an understanding of
-          policy implications.
+          PSO2 : To adopt latest technologies and use modern techniques, so as
+          to execute projects efficiently and effectively.
         </li>
       </ul>
     </div>
