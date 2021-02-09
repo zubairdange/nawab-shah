@@ -203,7 +203,7 @@ export const UGCoursesDetails = () => {
                 </Nav.Link>
               </Nav>
             )}
-            <Button onClick={() => setISShowECE(!isShowECE)}>BE (EEE)</Button>
+            <Button onClick={() => setISShowEEE(!isShowEEE)}>BE (EEE)</Button>
             {isShowEEE && (
               <Nav className="navmainclass">
                 <Nav.Link className="navlinkclass" href="/EEEBTECH">
