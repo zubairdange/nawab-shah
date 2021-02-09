@@ -3,39 +3,39 @@ export const PEOIT = () => {
   return (
     <div>
       <h3 className="headerclass">
-        BTECH-CSE-Program Educational Outcomes (PEOs)
+        BTECH-IT-Program Educational Outcomes (PEOs)
       </h3>
       <ul>
         <li>
-          PEO1 : Graduates will apply their programming skill sets in their
-          domains to provide solutions to real time problems.
+          PEO1 : Graduates will excel in their professional career and higher
+          education in Information Technology and chosen fields.
         </li>
         <li>
-          PEO2 : Graduates will demonstrate their team spirit through effective
-          communication both in local and multi- national arena.
+          PEO2 : Graduates will be prepared for a successful career, to meet the
+          diversified needs of industry, academia and research.
         </li>
         <li>
-          PEO3 : Graduates will adapt to the ever evolving software industry
-          through lifelong learning to provide effective solutions to benefit
-          the society in an ethical manner.
+          PEO3 : Graduates will demonstrate leadership qualities, team work and
+          professional ethics to serve the society.
+        </li>
+        <li>
+          PEO4 : Graduates will inculcate the qualities of leadership in
+          technology innovation and entrepreneurship with effective
+          communication skills, teamwork, and ethics with life-long learning.
         </li>
       </ul>
-      <h3 className="headerclass">
-        BTECH-CSE-Program Specific Outcomes (PSOs)
-      </h3>
+      <h3 className="headerclass">BTECH-IT-Program Specific Outcomes (PSOs)</h3>
       <ul>
         <li>
-          PSO1 : Graduates will adapt to the ever evolving software industry
-          through lifelong learning to provide effective solutions to benefit
-          the society in an ethical manner.
+          PSO1 : Create, select, and apply appropriate techniques, resources,
+          modern engineering and IT tools including prediction and modeling to
+          complex engineering activities with an understanding of the
+          limitations.
         </li>
         <li>
-          PSO2 : Apply ethical software development practices in providing real
-          time solutions using latest development tools.
-        </li>
-        <li>
-          PSO2 : Demonstrate their adaptability to the ever evolving societal
-          needs in multidisciplinary fields.
+          PSO2 : Manage real time IT projects with consideration of the human,
+          financial, ethical and environmental factors and an understanding of
+          policy implications.
         </li>
       </ul>
     </div>
