@@ -1,5 +1,5 @@
 import React from "react";
-export const PEODS = () => {
+export const PEOCivil = () => {
   return (
     <div>
       <h3 className="headerclass">
