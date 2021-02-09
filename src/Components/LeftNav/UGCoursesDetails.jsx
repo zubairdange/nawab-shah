@@ -12,16 +12,19 @@ import { SourceOutcomeIT } from "./UGCourses/BE(IT)/SourceOutcomeIT";
 import { PEOIT } from "./UGCourses/BE(IT)/PEOIT";
 export const UGCoursesDetails = () => {
   const [isshowCse, setIsShowCse] = useState(false);
-  const handleshow = () => {
-    setIsShowCse(true);
-  };
+  // const handleshow = () => {
+  //   setIsShowCse(!isshowCse);
+  // };
   return (
     <div style={{ marginTop: "20px" }}>
       <Row>
         <Col lg="3">
           <Card>
             <Button>UG Courses</Button>
-            <Button className="mybutton" onClick={handleshow}>
+            <Button
+              className="mybutton"
+              onClick={() => setIsShowCse(!isshowCse)}
+            >
               BE (CSE)
             </Button>
             {isshowCse && (
