@@ -220,17 +220,19 @@ export const UGCoursesDetails = () => {
                 </Nav.Link>
               </Nav>
             )}
-            <PGCoursesDetails />
-            {/* <Button>PG Courses</Button>
+            {/* <PGCoursesDetails /> */}
+            <Button>PG Courses</Button>
             <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass">ME (CSE)</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/CSEMTECH">
+                ME (CSE)
+              </Nav.Link>
 
               <Nav.Link className="navlinkclass">ME (CIVIL STRUCTURE)</Nav.Link>
 
               <Nav.Link className="navlinkclass">ME (MECH-HVAC)</Nav.Link>
 
               <Nav.Link className="navlinkclass">ME (ECE-ES)</Nav.Link>
-            </Nav> */}
+            </Nav>
             <Button>DIPLOMA COURSES</Button>
             <Nav className="navmainclass">
               <Nav.Link className="navlinkclass">POLYTECHNIC (CIVIL)</Nav.Link>
