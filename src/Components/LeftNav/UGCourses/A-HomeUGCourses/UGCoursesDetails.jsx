@@ -27,6 +27,11 @@ import { VisionMisionEEE } from "../BE(EEE)/VisionMisionEEE";
 import { SourceOutcomeEEE } from "../BE(EEE)/SourceOutcomeEEE";
 import { PEOEEE } from "../BE(EEE)/PEOEEE";
 import { PGCoursesDetails } from "../../PGCourses/A-HomePGCourses/PGCoursesDetails";
+import { MEMech } from "../../PGCourses/ME(Mech-Hvac)/MEMech";
+import { MEECE } from "../../PGCourses/ME(ECE-ES)/MEECE";
+import { MECivil } from "../../PGCourses/ME(Civil-Struct)/MECivil";
+import { MECse } from "../../PGCourses/ME(CSE)/MECse";
+
 export const UGCoursesDetails = () => {
   const [isshowCse, setIsShowCse] = useState(false);
   const [isShowIT, setISShowIT] = useState(false);
@@ -223,15 +228,21 @@ export const UGCoursesDetails = () => {
             {/* <PGCoursesDetails /> */}
             <Button>PG Courses</Button>
             <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass" href="/CSEMTECH">
+              <Nav.Link className="navlinkclass" href="/CSE-MTECH">
                 ME (CSE)
               </Nav.Link>
 
-              <Nav.Link className="navlinkclass">ME (CIVIL STRUCTURE)</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/CIVIL-MTECH">
+                ME (CIVIL STRUCTURE)
+              </Nav.Link>
 
-              <Nav.Link className="navlinkclass">ME (MECH-HVAC)</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/MECH-MTECH">
+                ME (MECH-HVAC)
+              </Nav.Link>
 
-              <Nav.Link className="navlinkclass">ME (ECE-ES)</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/ECE-MTECH">
+                ME (ECE-ES)
+              </Nav.Link>
             </Nav>
             <Button>DIPLOMA COURSES</Button>
             <Nav className="navmainclass">
@@ -342,6 +353,18 @@ export const UGCoursesDetails = () => {
               </Route>
               <Route path="/B-EEE-CourseOutcomes">
                 <SourceOutcomeEEE />
+              </Route>
+              <Route path="/CSE-MTECH">
+                <MECse />
+              </Route>
+              <Route path="/CIVIL-MTECH">
+                <MECivil />
+              </Route>
+              <Route path="/MECH-MTECH">
+                <MEMech />
+              </Route>
+              <Route path="/ECE-MTECH">
+                <MEECE />
               </Route>
             </Switch>
           </Router>
