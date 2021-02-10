@@ -45,6 +45,7 @@ export const UGCoursesDetails = () => {
   const [isShowMech, setISShowMech] = useState(false);
   const [isShowECE, setISShowECE] = useState(false);
   const [isShowEEE, setISShowEEE] = useState(false);
+  const [isShowPGCourses, setIsShowPGCourses] = useState(false);
   // const handleshow = () => {
   //   setIsShowCse(!isshowCse);
   // };
@@ -229,24 +230,28 @@ export const UGCoursesDetails = () => {
               </Nav>
             )}
             {/* <PGCoursesDetails /> */}
-            <Button>PG Courses</Button>
-            <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass" href="/CSE-MTECH">
-                ME (CSE)
-              </Nav.Link>
+            <Button onClick={() => setIsShowPGCourses(!isShowPGCourses)}>
+              PG Courses
+            </Button>
+            {isShowPGCourses && (
+              <Nav className="navmainclass">
+                <Nav.Link className="navlinkclass" href="/CSE-MTECH">
+                  ME (CSE)
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/CIVIL-MTECH">
-                ME (CIVIL STRUCTURE)
-              </Nav.Link>
+                <Nav.Link className="navlinkclass" href="/CIVIL-MTECH">
+                  ME (CIVIL STRUCTURE)
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/MECH-MTECH">
-                ME (MECH-HVAC)
-              </Nav.Link>
+                <Nav.Link className="navlinkclass" href="/MECH-MTECH">
+                  ME (MECH-HVAC)
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/ECE-MTECH">
-                ME (ECE-ES)
-              </Nav.Link>
-            </Nav>
+                <Nav.Link className="navlinkclass" href="/ECE-MTECH">
+                  ME (ECE-ES)
+                </Nav.Link>
+              </Nav>
+            )}
             <Button>DIPLOMA COURSES</Button>
             <Nav className="navmainclass">
               <Nav.Link className="navlinkclass" href="/POLYCIVIL">
