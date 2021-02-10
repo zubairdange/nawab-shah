@@ -5,7 +5,7 @@ export const MECse = () => {
     <div>
       <h3 className="headerclass">Computer Science & Engineering (MTECH)</h3>
       <img src={imgLogo} className="cseimage"></img>
-      <h3>An Introduction To CSE</h3>
+      <h5>An Introduction To CSE</h5>
       <p>
         Computer Science field has become one of the fastest growing segments of
         our economy which leads to huge demand for computer Engineering
