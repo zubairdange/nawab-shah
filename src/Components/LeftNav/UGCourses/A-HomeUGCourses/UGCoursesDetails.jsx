@@ -26,7 +26,6 @@ import { AboutCourseEEE } from "../BE(EEE)/AboutCourseEEE";
 import { VisionMisionEEE } from "../BE(EEE)/VisionMisionEEE";
 import { SourceOutcomeEEE } from "../BE(EEE)/SourceOutcomeEEE";
 import { PEOEEE } from "../BE(EEE)/PEOEEE";
-import { PGCoursesDetails } from "../../PGCourses/A-HomePGCourses/PGCoursesDetails";
 import { MEMech } from "../../PGCourses/ME(Mech-Hvac)/MEMech";
 import { MEECE } from "../../PGCourses/ME(ECE-ES)/MEECE";
 import { MECivil } from "../../PGCourses/ME(Civil-Struct)/MECivil";
@@ -46,6 +45,7 @@ export const UGCoursesDetails = () => {
   const [isShowECE, setISShowECE] = useState(false);
   const [isShowEEE, setISShowEEE] = useState(false);
   const [isShowPGCourses, setIsShowPGCourses] = useState(false);
+  const [isShowDiplomaCourses, setIsShowDiplomaCourses] = useState(false);
   // const handleshow = () => {
   //   setIsShowCse(!isshowCse);
   // };
@@ -252,24 +252,32 @@ export const UGCoursesDetails = () => {
                 </Nav.Link>
               </Nav>
             )}
-            <Button>DIPLOMA COURSES</Button>
-            <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass" href="/POLYCIVIL">
-                POLYTECHNIC (CIVIL)
-              </Nav.Link>
+            <Button
+              onClick={() => setIsShowDiplomaCourses(!isShowDiplomaCourses)}
+            >
+              DIPLOMA COURSES
+            </Button>
 
-              <Nav.Link className="navlinkclass" href="/POLYMECH">
-                POLYTECHNIC (ME)
-              </Nav.Link>
+            {isShowDiplomaCourses && (
+              <Nav className="navmainclass">
+                <Nav.Link className="navlinkclass" href="/POLYCIVIL">
+                  POLYTECHNIC (CIVIL)
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/POLYECE">
-                POLYTECHNIC (ECE)
-              </Nav.Link>
+                <Nav.Link className="navlinkclass" href="/POLYMECH">
+                  POLYTECHNIC (ME)
+                </Nav.Link>
 
-              <Nav.Link className="navlinkclass" href="/POLYEEE">
-                POLYTECHNIC (EEE)
-              </Nav.Link>
-            </Nav>
+                <Nav.Link className="navlinkclass" href="/POLYECE">
+                  POLYTECHNIC (ECE)
+                </Nav.Link>
+
+                <Nav.Link className="navlinkclass" href="/POLYEEE">
+                  POLYTECHNIC (EEE)
+                </Nav.Link>
+              </Nav>
+            )}
+
             <Button>HUMAN VALUES & PROFESSIONAL ETHICS</Button>
             <Nav className="navmainclass">
               <Nav.Link className="navlinkclass">
