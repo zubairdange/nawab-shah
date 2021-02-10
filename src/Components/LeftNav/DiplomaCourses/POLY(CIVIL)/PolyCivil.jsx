@@ -3,7 +3,7 @@ import imgLogo from "../../../Images/PolyCivil.png";
 export const PolyCivil = () => {
   return (
     <div>
-      <h3 className="headerclass">CIVIL Engineering (POLY)</h3>
+      <h3 className="headerclass">Civil Engineering (POLY)</h3>
       <img src={imgLogo} className="cseimage"></img>
       <h5>Diploma In Civil Engineering.</h5>
       <p>
