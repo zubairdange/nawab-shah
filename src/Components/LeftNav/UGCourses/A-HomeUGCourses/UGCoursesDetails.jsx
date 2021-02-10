@@ -31,7 +31,10 @@ import { MEMech } from "../../PGCourses/ME(Mech-Hvac)/MEMech";
 import { MEECE } from "../../PGCourses/ME(ECE-ES)/MEECE";
 import { MECivil } from "../../PGCourses/ME(Civil-Struct)/MECivil";
 import { MECse } from "../../PGCourses/ME(CSE)/MECse";
-
+import { PolyEEE } from "../../DiplomaCourses/POLY(EEE)/PolyEEE";
+import { PolyECE } from "../../DiplomaCourses/POLY(ECE)/PolyECE";
+import { PolyMech } from "../../DiplomaCourses/POLY(ME)/PolyMech";
+import { PolyCivil } from "../../DiplomaCourses/POLY(CIVIL)/PolyCivil";
 export const UGCoursesDetails = () => {
   const [isshowCse, setIsShowCse] = useState(false);
   const [isShowIT, setISShowIT] = useState(false);
@@ -246,13 +249,21 @@ export const UGCoursesDetails = () => {
             </Nav>
             <Button>DIPLOMA COURSES</Button>
             <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass">POLYTECHNIC (CIVIL)</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/POLYCIVIL">
+                POLYTECHNIC (CIVIL)
+              </Nav.Link>
 
-              <Nav.Link className="navlinkclass">POLYTECHNIC (ME)</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/POLYMECH">
+                POLYTECHNIC (ME)
+              </Nav.Link>
 
-              <Nav.Link className="navlinkclass">POLYTECHNIC (ECE)</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/POLYECE">
+                POLYTECHNIC (ECE)
+              </Nav.Link>
 
-              <Nav.Link className="navlinkclass">POLYTECHNIC (EEE)</Nav.Link>
+              <Nav.Link className="navlinkclass" href="/POLYEEE">
+                POLYTECHNIC (EEE)
+              </Nav.Link>
             </Nav>
             <Button>HUMAN VALUES & PROFESSIONAL ETHICS</Button>
             <Nav className="navmainclass">
@@ -365,6 +376,18 @@ export const UGCoursesDetails = () => {
               </Route>
               <Route path="/ECE-MTECH">
                 <MEECE />
+              </Route>
+              <Route path="/POLYCIVIL">
+                <PolyCivil />
+              </Route>
+              <Route path="/POLYMECH">
+                <PolyMech />
+              </Route>
+              <Route path="/PolyECE">
+                <PolyECE />
+              </Route>
+              <Route path="/PolyEEE">
+                <PolyEEE />
               </Route>
             </Switch>
           </Router>
