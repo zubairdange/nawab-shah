@@ -1,5 +1,5 @@
 import React from "react";
-import imgLogo from "../../../Images/MECIVIL.png";
+import imgLogo from "../../../Images/MEMECH.png";
 
 export const MEMech = () => {
   return (
