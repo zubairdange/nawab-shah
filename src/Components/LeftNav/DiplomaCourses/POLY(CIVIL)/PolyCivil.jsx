@@ -52,7 +52,7 @@ export const PolyCivil = () => {
         </li>
       </ul>
       <h5>The career options for Diploma Civil Engineer are</h5>
-      <ol style={{ textAlign: "left" }}>
+      <ol>
         <li>Buildings / Civil works Site Supervisor</li>
         <li>Transportation system work Engineer</li>
         <li>Maintenance Engineer </li>

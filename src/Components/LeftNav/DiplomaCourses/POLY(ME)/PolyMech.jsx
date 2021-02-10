@@ -4,9 +4,9 @@ import imgLogo from "../../../Images/PolyMech.png";
 export const PolyMech = () => {
   return (
     <div>
-      <h3 className="headerclass">MECHANICAL Engineering (POLY)</h3>
+      <h3 className="headerclass">Mechanical Engineering (POLY)</h3>
       <img src={imgLogo} className="cseimage"></img>
-      <h5>Diploma In Mechanical Engineering.</h5>
+      <h5>Diploma In Mechanical Engineering</h5>
       <p>
         The college offers Polytechnic (Mechanical Engineering) course whose
         details are given below:
@@ -51,7 +51,7 @@ export const PolyMech = () => {
         </li>
         <li>Basically, a mechanical engineer’s work involves –</li>
       </ul>
-      <ol style={{ textAlign: "left" }}>
+      <ol>
         <li>
           Design and control of system that goes into the process of
           manufacturing the machinery and product.
@@ -71,7 +71,7 @@ export const PolyMech = () => {
         </li>
       </ul>
       <h5>You can find job in the following industries:-</h5>
-      <ol style={{ textAlign: "left" }}>
+      <ol>
         <li>Manufacturing</li>
         <li>Automobile</li>
         <li>Power</li>
