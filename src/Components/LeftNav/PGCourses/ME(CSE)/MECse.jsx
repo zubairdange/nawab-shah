@@ -44,7 +44,7 @@ export const MECse = () => {
         <li>M. TECH. COMPUTER SCIENCE ENGINEERING-R13 Regulations</li>
         <li>
           You can download from here{" "}
-          <a href="images/pdf/COMPUTER_SCIENCE_ENGINEERING.pdf" target="_blank">
+          <a href="MYPDF/COMPUTER_SCIENCE_ENGINEERING.pdf" target="_blank">
             COMPUTER_SCIENCE_ENGINEERING.pdf
           </a>
         </li>

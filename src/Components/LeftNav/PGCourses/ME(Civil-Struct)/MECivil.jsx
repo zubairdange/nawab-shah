@@ -50,7 +50,7 @@ export const MECivil = () => {
         <li>M.Tech (Structural Engg) - R13 Regulations </li>
         <li>
           You can download from here
-          <a href="images/pdf/Structural_Engg.pdf" target="_blank">
+          <a href="MYPDF/Structural_Engg.pdf" target="_blank">
             {" "}
             Structural_Engg.pdf
           </a>
