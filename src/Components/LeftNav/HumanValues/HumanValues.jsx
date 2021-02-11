@@ -11,53 +11,7 @@ export const HumanValues = () => {
         organizes the Blood Donation Camps for the awareness of importance of
         hygiene in the students.
       </p>
-      {/* <Table>
-        <tbody></tbody>
-        <thead>
-          <tr>
-            <th id="Th22">S.NO</th>
-            <th id="Th23">Critical Issue</th>
-            <th id="Th24">
-              Code &amp; Title of the subject wherein the issue is addressed
-            </th>
-            <th id="Th25">Unit Number</th>
-            <th id="Th26">Remarks</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>
-              <h3>
-                <a>
-                  <b>1</b>
-                </a>
-              </h3>
-            </td>
-            <td>
-              <h3>
-                <a>
-                  <b>Human Values and Professional Ethics</b>
-                </a>
-              </h3>
-            </td>
-            <td>
-              <h3>A50018: Human values and professional ethics</h3>
-            </td>
-            <td>
-              <p>
-                Unit I: Natural acceptance. Unit II : Understanding self
-                Harmony.
-                <br />
-                Unit III: Understanding harmony in society.
-                <br />
-                Unit IV: Understanding Nature &amp; Existence harmony.
-                <br />
-                Unit V: Human values acceptance.
-              </p>
-            </td>
-          </tr>
-        </tbody>
-      </Table> */}
+
       <table class="category table table-striped table-bordered table-hover">
         <tbody></tbody>
         <thead>
