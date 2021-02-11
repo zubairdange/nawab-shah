@@ -34,6 +34,10 @@ import { PolyEEE } from "../DiplomaCourses/POLY(EEE)/PolyEEE";
 import { PolyECE } from "../DiplomaCourses/POLY(ECE)/PolyECE";
 import { PolyMech } from "../DiplomaCourses/POLY(ME)/PolyMech";
 import { PolyCivil } from "../DiplomaCourses/POLY(CIVIL)/PolyCivil";
+import { CiscoNetworking } from "../CiscoNW/CiscoNetworking";
+import { TSAcademy } from "../Task/TSAcademy";
+import { CambridgeEnglish } from "../CambridgeEnglish/CambridgeEnglish";
+import { HumanValues } from "../HumanValues/HumanValues";
 export const UGCoursesDetails = () => {
   const [isshowCse, setIsShowCse] = useState(false);
   const [isShowIT, setISShowIT] = useState(false);
@@ -280,23 +284,28 @@ export const UGCoursesDetails = () => {
 
             <Button>HUMAN VALUES & PROFESSIONAL ETHICS</Button>
             <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass">
+              <Nav.Link className="navlinkclass" href="/HVPE">
                 Human Values & Professional Ethics
               </Nav.Link>
             </Nav>
             <Button>CISCO NETWORKING ACADEMY</Button>
             <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass">
+              <Nav.Link className="navlinkclass" href="/CISCONetworkingAcademy">
                 Cisco Networking Academy
               </Nav.Link>
             </Nav>
             <Button>CAMBRIDGE ENGLISH</Button>
             <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass">Cambridge English</Nav.Link>
+              <Nav.Link
+                className="navlinkclass"
+                href="/BusinessEnglishCertificate"
+              >
+                Cambridge English
+              </Nav.Link>
             </Nav>
             <Button>TASK</Button>
             <Nav className="navmainclass">
-              <Nav.Link className="navlinkclass">
+              <Nav.Link className="navlinkclass" href="/TASK">
                 TS Academy For Skill & Knowledge
               </Nav.Link>
             </Nav>
@@ -401,6 +410,18 @@ export const UGCoursesDetails = () => {
               </Route>
               <Route path="/PolyEEE">
                 <PolyEEE />
+              </Route>
+              <Route path="/HVPE">
+                <HumanValues />
+              </Route>
+              <Route path="/CISCONetworkingAcademy">
+                <CiscoNetworking />
+              </Route>
+              <Route path="/BusinessEnglishCertificate">
+                <CambridgeEnglish />
+              </Route>
+              <Route path="/Task">
+                <TSAcademy />
               </Route>
             </Switch>
           </Router>
