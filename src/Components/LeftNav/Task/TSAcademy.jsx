@@ -1,5 +1,9 @@
 import React from "react";
 import imgLogo from "../../Images/TaskImage.png";
+import { Button } from "react-bootstrap";
+import TaskPdf from "../../PDF/TASK-SoftSkills.pdf";
+import "../Task/Task.css";
+
 export const TSAcademy = () => {
   return (
     <div>
@@ -89,6 +93,28 @@ export const TSAcademy = () => {
           development of the state.
         </li>
       </ul>
+      <Button
+        variant="outline-secondary"
+        className="taskbutton"
+        href="MYPDF/TASK-SoftSkills.pdf"
+      >
+        Task-Soft Skills
+      </Button>
+      <Button
+        variant="outline-secondary"
+        className="taskbutton"
+        href="MYPDF/TASK-GlobalCertifications.pdf"
+      >
+        Task-Global Certifications
+      </Button>
+      <p>
+        <iframe
+          src={TaskPdf}
+          type="application/pdf"
+          width="800px"
+          height="1130"
+        ></iframe>
+      </p>
     </div>
   );
 };

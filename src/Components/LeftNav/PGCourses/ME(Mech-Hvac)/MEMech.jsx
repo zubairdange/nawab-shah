@@ -41,7 +41,7 @@ export const MEMech = () => {
         <li>
           You can download from here{" "}
           <a
-            href="images/pdf/HEATING_VENTILATION_AND_AIR_CONDITIONING.pdf"
+            href="MYPDF/HEATING_VENTILATION_AND_AIR_CONDITIONING.pdf"
             target="_blank"
           >
             HVAC.pdf
