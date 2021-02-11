@@ -33,6 +33,11 @@ ul{
 .buttonclass{
 font-size: 12px !important;
 height: 45px;
+float: left;
+margin-left: 20px;
+border: none;
+background-color: #EE7C7C;
+text-align: justify;
 }
 .buttonclass:hover{
     
