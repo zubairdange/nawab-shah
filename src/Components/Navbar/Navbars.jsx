@@ -11,6 +11,7 @@ import {
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { AboutCourse } from "../LeftNav/UGCourses/BE(CSE)/AboutCourse";
+import { UGCoursesDetails } from "../LeftNav/A-HomeAllCourses/UGCoursesDetails";
 export const Navbars = () => {
   return (
     <div>
@@ -33,7 +34,9 @@ export const Navbars = () => {
       </Navbar>
       <Router>
         <Switch>
-          <Route path="/CSEBTECH">{/* <AboutCourse /> */}</Route>
+          <Route path="/CSEBTECH">
+            <UGCoursesDetails />
+          </Route>
         </Switch>
       </Router>
     </div>
