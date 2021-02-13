@@ -50,9 +50,7 @@ export const UGCoursesDetails = () => {
   const [isShowEEE, setISShowEEE] = useState(false);
   const [isShowPGCourses, setIsShowPGCourses] = useState(false);
   const [isShowDiplomaCourses, setIsShowDiplomaCourses] = useState(false);
-  // const handleshow = () => {
-  //   setIsShowCse(!isshowCse);
-  // };
+
   return (
     <div style={{ marginTop: "20px" }}>
       <Row>
