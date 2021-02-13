@@ -233,7 +233,7 @@ export const UGCoursesDetails = () => {
                 </Nav.Link>
               </Nav>
             )}
-            {/* <PGCoursesDetails /> */}
+
             <Button onClick={() => setIsShowPGCourses(!isShowPGCourses)}>
               PG Courses
             </Button>
