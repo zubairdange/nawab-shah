@@ -5,6 +5,7 @@ export const Landing = () => {
   return (
     <div>
       <Navbars />
+      {/* <UGCoursesDetails /> */}
     </div>
   );
 };
