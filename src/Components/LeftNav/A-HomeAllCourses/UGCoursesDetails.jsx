@@ -312,7 +312,6 @@ export const UGCoursesDetails = () => {
           </Card>
         </Col>
         <Col lg="9">
-          {/* <h2>hiiiiii</h2> */}
           <Router>
             <Switch>
               <Route path="/CSEBTECH">
