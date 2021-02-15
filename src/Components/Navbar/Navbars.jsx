@@ -10,7 +10,7 @@ import {
   Col,
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { AboutCourse } from "../LeftNav/UGCourses/BE(CSE)/AboutCourse";
+
 import { UGCoursesDetails } from "../LeftNav/A-HomeAllCourses/UGCoursesDetails";
 import { MYHome } from "../MYHome";
 export const Navbars = () => {
