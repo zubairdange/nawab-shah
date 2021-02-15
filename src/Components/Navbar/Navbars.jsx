@@ -1,14 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import {
-  Navbar,
-  Nav,
-  FormControl,
-  Button,
-  Form,
-  Row,
-  Col,
-} from "react-bootstrap";
+import { Navbar, Nav, FormControl, Button, Form } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import { UGCoursesDetails } from "../LeftNav/A-HomeAllCourses/UGCoursesDetails";
