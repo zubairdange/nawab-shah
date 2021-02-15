@@ -12,6 +12,7 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 import { AboutCourse } from "../LeftNav/UGCourses/BE(CSE)/AboutCourse";
 import { UGCoursesDetails } from "../LeftNav/A-HomeAllCourses/UGCoursesDetails";
+import { MYHome } from "../MYHome";
 export const Navbars = () => {
   return (
     <div>
@@ -36,6 +37,9 @@ export const Navbars = () => {
         <Switch>
           <Route path="/CSEBTECH">
             <UGCoursesDetails />
+          </Route>
+          <Route path="/">
+            <MYHome />
           </Route>
         </Switch>
       </Router>
