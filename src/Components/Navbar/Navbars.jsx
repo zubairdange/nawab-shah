@@ -18,7 +18,7 @@ export const Navbars = () => {
       <Navbar bg="dark" variant="dark">
         {/* <Navbar.Brand href="#home">Navbar</Navbar.Brand> */}
         <Nav className="mr-auto">
-          <Nav.Link href="#home">HOME</Nav.Link>
+          <Nav.Link href="/">HOME</Nav.Link>
           <Nav.Link href="#features">ABOUT US </Nav.Link>
           <Nav.Link href="/CSEBTECH">COURSES</Nav.Link>
           <Nav.Link href="#department">DEPARTMENT</Nav.Link>
