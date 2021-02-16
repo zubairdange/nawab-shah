@@ -81,7 +81,7 @@ export const Navbars = () => {
           <Route path="/AdmissinForm4">
             <AdmissinForm4 />
           </Route>
-          {/* <Route path="/CSEBTECH">
+          <Route path="/CSEBTECH">
             <AboutCourse />
           </Route>
           <Route path="/B-CSE-VisionMission">
@@ -188,7 +188,7 @@ export const Navbars = () => {
           </Route>
           <Route path="/Task">
             <TSAcademy />
-          </Route> */}
+          </Route>
         </Switch>
       </Router>
     </div>
