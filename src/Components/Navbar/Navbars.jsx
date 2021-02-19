@@ -42,6 +42,8 @@ import { CiscoNetworking } from "../LeftNav/CiscoNW/CiscoNetworking";
 import { TSAcademy } from "../LeftNav/Task/TSAcademy";
 import { CambridgeEnglish } from "../LeftNav/CambridgeEnglish/CambridgeEnglish";
 import { HumanValues } from "../LeftNav/HumanValues/HumanValues";
+import { Courses } from "../Courses";
+import { Myroute } from "../MyRoute";
 
 import { UGCoursesDetails } from "../LeftNav/A-HomeAllCourses/UGCoursesDetails";
 export const Navbars = () => {
@@ -51,7 +53,7 @@ export const Navbars = () => {
         <Nav className="mr-auto">
           <Nav.Link href="#">HOME</Nav.Link>
           <Nav.Link href="#features">ABOUT US </Nav.Link>
-          <Nav.Link href="/CSEBTECH">COURSES</Nav.Link>
+          <Nav.Link href="/Courses">COURSES</Nav.Link>
           <Nav.Link href="#department">DEPARTMENT</Nav.Link>
           <Nav.Link href="/AdmissinForm1">ADMISSIONS</Nav.Link>
           <Nav.Link href="#pricing">PLACEMENTS</Nav.Link>
@@ -66,9 +68,10 @@ export const Navbars = () => {
       {/* <UGCoursesDetails /> */}
       <Router>
         <Switch>
-          <Route path="/CSEBTECH">
-            <UGCoursesDetails />
+          <Route path="/COURSES">
+            <Courses />
           </Route>
+
           <Route path="/AdmissinForm1">
             <AdmissinForm1 />
           </Route>
