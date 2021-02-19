@@ -1,7 +1,7 @@
 import React from "react";
 import { UGCoursesDetails } from "../Components/LeftNav/A-HomeAllCourses/UGCoursesDetails";
 import { MyRoute } from "./MyRoute";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, Button } from "react-bootstrap";
 
 export const Courses = () => {
   return (
@@ -12,6 +12,7 @@ export const Courses = () => {
         </Col> */}
         <Col lg="9">
           <MyRoute />
+          <Button>btn</Button>
         </Col>
       </Row>
     </div>
