@@ -46,6 +46,9 @@ export const MyRoute = () => {
           <Route path="/CSEBTECH">
             <AboutCourse />
           </Route>
+          <Route path="/CSEBTECH">
+            <AboutCourse />
+          </Route>
           <Route path="/B-CSE-VisionMission">
             <VisionMision />
           </Route>
